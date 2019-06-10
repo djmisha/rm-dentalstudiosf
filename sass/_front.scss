@@ -1,9 +1,8 @@
 
-// header,
+header,
 footer,
-// .welcome-parallax,
+.welcome-parallax,
 .footer-recent-blogs,
-.home-featured-procedures,
 .home-doctor,
 // .home-featured-procedures
 {
@@ -19,11 +18,13 @@ footer,
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
+
 /*===============================================
 =            Welcome to my Website!             =
 ===============================================*/
 
 .welcome-parallax {
+	position: relative;
 	@include media($desktop) {
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -31,40 +32,54 @@ footer,
 }
 
 .welcome {
-	background: #fff url("images/bg-welcome.jpg") top center no-repeat;
+	background: #fff url("images/bg-welcome.jpg") center center no-repeat;
+	background-size: cover;
 	z-index: 1000;
 	height: auto;
-	min-height: 667px;
+	min-height: 480px;
 	@include media($tablet) {
-		background: #fff url("images/bg-welcome.jpg") top center no-repeat;
+		// background: #fff url("images/bg-welcome.jpg") top center no-repeat;
 		height: 800px;
 		max-height: none;
 		padding-top: 0;
 	}
 	@include media($desktop) {
 		background: none;
-		height: 100vh;
+		height: 1000px;
 		min-height: 768px;
 	}
 }
 
 .welcome .welcome-cta {
-	padding-top: 300px;
+	padding-top: 100px;
 	color: $lightColor;
+	@include media($tablet) {
+		padding-top: 240px;
+		
+	}
 	@include media($desktop) {
-		padding-top: 45vh;
+		padding-top: 400px;
 	}
 	h2 {
 		font-weight: lighter;
+			font-size: 40px;
+		@include media($tablet) {
+			font-size: 60px;
+			// line-height: 85px;
+		}
 		@include media($desktop) {
 			font-size: 80px;
+			line-height: 85px;
+			
 		}
 	}
 	h3 {
+		font-size: 18px;
+		font-weight: 300;
+		@include media($tablet) {
 		margin-top: 40px;
 		margin-bottom: 40px;
-		font-size: 20px;
-		@include media($desktop) {
+			
 		}
 	}
 	.button {
@@ -76,7 +91,28 @@ footer,
 	}
 }
 
-
+.welcome-special {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: $primaryColor;
+	height: 80px;
+	color: $lightColor;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 1px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: 300;
+	@include media($desktop) {
+		padding-left: 40px;
+		padding-right: 40px;
+		font-size: 30px;
+		line-height: 30px;
+	}
+}
 
 
 /*===================================
@@ -99,7 +135,7 @@ footer,
 		}
 		li {
 			text-align: left;
-			width: 90%;
+			width: 100%;
 			margin-bottom: 100px;
 			@include media($tablet) {
 				max-width: 350px;
@@ -118,7 +154,7 @@ footer,
 		}
 	}
 	.button {
-		margin-top: 20px;
+		margin-top: 40px;
 		display: block;
 		@include media($tablet) {
 			// display: inline-block;
@@ -130,13 +166,52 @@ footer,
 }
 
 
-
 /*================================================
 =            home-featured-procedures            =
 ================================================*/
 
 .home-featured-procedures {
-	
+	background: #f3f3f3;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	ul {
+		margin-top: 60px;
+		list-style-type: none;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	li {
+		text-align: left;
+		width: 100%;
+		// margin-right: ;
+		@include media($tablet) {
+			width: 44%;
+		margin-bottom: 40px;
+			
+		}
+		@include media($desktop) {
+			width: 31%;
+		}
+	}
+	a {
+		text-decoration: none;
+		color: $darkColor;
+	}
+	.featured-icon {
+		width: 106px;
+		height: 106px;
+		background-repeat: no-repeat;
+		float: left;
+		margin-right: 20px;
+		margin-bottom:100px;
+	}
+	span {
+		font-size: 20px;
+	}
+	p {
+		color: $primaryAlt;
+	}
 }
 
 

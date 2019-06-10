@@ -24,15 +24,14 @@
 <a href="#skiptomaincontent" style="display:none;">Skip to main content</a>
 
 <header class="site-header <?php echo is_front_page() ? 'front-header' : 'int-header'; ?>" <?php get__header__image(); ?> >
-	<div class="menu-trigger">
-		<div class="hamburger"></div>
-		<div class="hamburger"></div>
-		<div class="hamburger"></div>
-		<!-- <div class="trigger-text">MENU</div> -->
-	</div>
-
 
 	<div class="nav-bar">
+		<div class="menu-trigger">
+			<div class="hamburger"></div>
+			<div class="hamburger"></div>
+			<div class="hamburger"></div>
+			<div class="trigger-text">MENU</div>
+		</div>
 		<section>
 			<div class="nav-logo">
 				<a href="<?php bloginfo('url'); ?>">

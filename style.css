@@ -4403,15 +4403,7 @@ main,
   section,
   main,
   .contain {
-    padding: 0 40px;
-  }
-}
-
-@media only screen and (min-width: 1080px) {
-  section,
-  main,
-  .contain {
-    padding: 0 calc(40px + (50% - (1080px / 2)));
+    padding: 0 20px;
   }
 }
 
@@ -4461,9 +4453,7 @@ main,
 ------------------------ */
 /* Naviagation bar */
 .nav-bar {
-  z-index: 8998;
-  border: 1px solid red;
-  border: 1px solid #3d9be9;
+  z-index: 1;
   background: #ffffff;
   position: relative;
   display: block;
@@ -4496,7 +4486,6 @@ main,
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid red;
 }
 
 @media only screen and (min-width: 1080px) {
@@ -4515,7 +4504,7 @@ main,
 }
 
 .nav-logo img {
-  height: 50px;
+  height: 40px;
 }
 
 @media only screen and (min-width: 1080px) {
@@ -4549,12 +4538,22 @@ main,
 }
 
 .nav-bar-phones {
-  width: 100%;
   background: #3d9be9;
+  position: absolute;
+  right: 70px;
+  left: auto;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media only screen and (min-width: 1080px) {
   .nav-bar-phones {
+    right: auto;
+    width: 100%;
+    position: relative;
+    display: block;
     background: transparent;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -4575,6 +4574,8 @@ main,
 .nav-bar-phones i {
   color: #ffffff;
   display: block;
+  font-size: 25px;
+  padding-top: 5px;
 }
 
 @media only screen and (min-width: 1080px) {
@@ -4584,14 +4585,32 @@ main,
 }
 
 .nav-bar-phones a {
+  width: 80px;
+  height: 60px;
   text-decoration: none;
-  font-weight: bold;
   color: #000;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-right: 1px solid #fff;
 }
 
 @media only screen and (min-width: 1080px) {
   .nav-bar-phones a {
+    text-transform: none;
+    font-weight: bold;
+    color: #000;
+    width: auto;
+    height: auto;
     display: inline-block;
   }
 }
@@ -4600,14 +4619,13 @@ main,
 /* MOBILE NAV */
 /* MOBILE NAV */
 .menu-trigger {
-  display: none;
-  z-index: 8999;
   position: relative;
-  padding: 15px 20px 15px 20px;
-  position: fixed;
+  padding: 5px 20px 15px 20px;
+  position: absolute;
   right: 0px;
   background: #3d9be9;
-  width: 65px;
+  width: 70px;
+  height: 60px;
 }
 
 .is--ipad .menu-trigger {
@@ -4646,6 +4664,13 @@ main,
 
 .menu-trigger .hamburger:last-of-type {
   margin-bottom: 0px;
+}
+
+.menu-trigger .trigger-text {
+  color: #ffffff;
+  position: relative;
+  margin-top: 3px;
+  margin-left: -7px;
 }
 
 /* Inside Page Headers */
@@ -6611,8 +6636,8 @@ aside li {
 
 @media only screen and (min-width: 768px) {
   .upper-footer .footer-form {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
 
@@ -7181,6 +7206,10 @@ aside li {
 /*===============================================
 =            Welcome to my Website!             =
 ===============================================*/
+.welcome-parallax {
+  position: relative;
+}
+
 @media only screen and (min-width: 1080px) {
   .welcome-parallax {
     background-repeat: no-repeat;
@@ -7189,15 +7218,15 @@ aside li {
 }
 
 .welcome {
-  background: #fff url("images/bg-welcome.jpg") top center no-repeat;
+  background: #fff url("images/bg-welcome.jpg") center center no-repeat;
+  background-size: cover;
   z-index: 1000;
   height: auto;
-  min-height: 667px;
+  min-height: 480px;
 }
 
 @media only screen and (min-width: 768px) {
   .welcome {
-    background: #fff url("images/bg-welcome.jpg") top center no-repeat;
     height: 800px;
     max-height: none;
     padding-top: 0;
@@ -7207,36 +7236,56 @@ aside li {
 @media only screen and (min-width: 1080px) {
   .welcome {
     background: none;
-    height: 100vh;
+    height: 1000px;
     min-height: 768px;
   }
 }
 
 .welcome .welcome-cta {
-  padding-top: 300px;
+  padding-top: 100px;
   color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  .welcome .welcome-cta {
+    padding-top: 240px;
+  }
 }
 
 @media only screen and (min-width: 1080px) {
   .welcome .welcome-cta {
-    padding-top: 45vh;
+    padding-top: 400px;
   }
 }
 
 .welcome .welcome-cta h2 {
   font-weight: lighter;
+  font-size: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .welcome .welcome-cta h2 {
+    font-size: 60px;
+  }
 }
 
 @media only screen and (min-width: 1080px) {
   .welcome .welcome-cta h2 {
     font-size: 80px;
+    line-height: 85px;
   }
 }
 
 .welcome .welcome-cta h3 {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 768px) {
+  .welcome .welcome-cta h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 }
 
 .welcome .welcome-cta .button {
@@ -7246,6 +7295,38 @@ aside li {
 
 .welcome .welcome-cta .button:hover {
   background: #777777;
+}
+
+.welcome-special {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #3d9be9;
+  height: 80px;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 1080px) {
+  .welcome-special {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 
 /*===================================
@@ -7278,7 +7359,7 @@ aside li {
 
 .home-doctor ul li {
   text-align: left;
-  width: 90%;
+  width: 100%;
   margin-bottom: 100px;
 }
 
@@ -7304,7 +7385,7 @@ aside li {
 }
 
 .home-doctor .button {
-  margin-top: 20px;
+  margin-top: 40px;
   display: block;
 }
 
@@ -7315,6 +7396,65 @@ aside li {
 /*================================================
 =            home-featured-procedures            =
 ================================================*/
+.home-featured-procedures {
+  background: #f3f3f3;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.home-featured-procedures ul {
+  margin-top: 60px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home-featured-procedures li {
+  text-align: left;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-featured-procedures li {
+    width: 44%;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .home-featured-procedures li {
+    width: 31%;
+  }
+}
+
+.home-featured-procedures a {
+  text-decoration: none;
+  color: #000;
+}
+
+.home-featured-procedures .featured-icon {
+  width: 106px;
+  height: 106px;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+.home-featured-procedures span {
+  font-size: 20px;
+}
+
+.home-featured-procedures p {
+  color: #777777;
+}
+
 /* ------------------------
 	Blog/Category/Archives
 ------------------------ */

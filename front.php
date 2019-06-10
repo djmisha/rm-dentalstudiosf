@@ -4,7 +4,6 @@
 
 <?php get_header()?>
 
-
 <div class="welcome-parallax will-parallax parallax-welcome b-lazy" data-src="<?php bloginfo('template_directory'); ?>/images/bg-welcome.jpg">
 	<div class="welcome" id="skiptomaincontent">
 		<div class="welcome-cta">
@@ -13,7 +12,35 @@
 			<div class="button" rel="nofollow">Book Online</div>
 		</div>
 	</div>
-</div> 
+	<div class="welcome-special">
+		<?php the_field('specials_text'); ?>
+	</div>
+</div>
+
+<section class="about-the-practice">
+	<h2><?php the_field('about_headline'); ?></h2>
+	<div class="split-line"></div>
+	<?php the_field('about_content'); ?>
+</section>
+
+<section class="home-featured-procedures">
+	<h2>Our Services</h2>
+	<div class="split-line"></div>
+	<?php if(have_rows('featured_procedures')): ?>
+		<ul>
+			<?php while(have_rows('featured_procedures')): the_row(); ?>
+				<li>
+					<a href="<?php the_sub_field('procedure_link'); ?>">
+						<div class="featured-icon" style="background-image: url('<?php the_sub_field('image'); ?>');" >
+						</div>
+						<span><?php the_sub_field('name'); ?></span>
+						<p><?php the_sub_field('content'); ?></p>
+					</a>
+				</li>
+			<?php endwhile; ?>
+		</ul>
+	<?php endif; ?>
+</section>
 
 <section class="home-doctor">
 	<h2>Meet Our Dentists</h2>
@@ -33,25 +60,5 @@
 		<?php endif; ?>
 	</div>
 </section>
-
-<div class="home-featured-procedures">
-	<?php if(have_rows('featured_procedures')): ?>
-		<?php $count = 3; ?>
-		<ul>
-			<?php while(have_rows('featured_procedures')): the_row(); ?>
-				<li style="background-image: url('<?php the_sub_field('image'); ?>');" class="wow fadeIn" data-wow-offset="20" data-wow-delay=".<?echo $count; ?>0s" data-wow-duration=".5s" >
-					<div class="proced-name">
-						<a href="<?php the_sub_field('procedure_link'); ?>">
-							<span><?php the_sub_field('headline'); ?></span>
-						</a>
-					</div>
-				</li>
-				<?php $count++; ?>
-			<?php endwhile; ?>
-		</ul>
-	<?php endif; ?>
-</div>
-
-
 
 <?php get_footer()?>
