@@ -9,7 +9,7 @@
 	<title><?php wp_title(""); ?></title>
 
 	<?php if(!is_404()): ?>
-		<?php miniCSS::url( 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap' ); ?>
+		<?php miniCSS::url( 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700&display=swap' ); ?>
 	<?php endif; ?>
 	
 	<?php wp_head()?>

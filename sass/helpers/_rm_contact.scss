@@ -119,7 +119,7 @@ $errorcolor: darken($secondaryColor, 20%);
 		background: #fff;
 	}
 	.field-wrap:not(.type-text):not(.type-checkbox) {
-		margin-bottom: 25px;
+		margin-bottom: 5px;
 
 		@include media($tablet) {
 			// margin-bottom: 20px;

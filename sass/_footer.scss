@@ -3,26 +3,28 @@
 =            Upper Footer            =
 ====================================*/
 
-
-
-.elevate-bg {
-	min-height: 300px;
-	height: calc(20vw);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center; 
+.upper-footer {
+	a {
+		color: $darkColor;
+		text-decoration: none;
+	}
+	p {
+		font-weight: bold;
+		font-size: 25px;
+	}
 }
 
 
 .upper-footer {
 	background: #fff url("images/bg-footer-form.jpg") center center no-repeat;
 	background-size: cover;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	@include media($tablet) {
-		padding-top: 80px;
-		padding-bottom: 80px;
-		
+	.footer-form {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		@include media($tablet) {
+			padding-top: 80px;
+			padding-bottom: 80px;
+		}
 	}
 	form {
 		margin-top: 40px;
@@ -33,7 +35,7 @@
 		.type-singlelinetext {
 			width: 100%;
 			@include media($tablet) {
-				width: 32%;
+				width: 33%;
 			}
 		}
 		.type-textarea {
@@ -49,6 +51,87 @@
 }
 
 
+.footer-elavate {
+	.elevate-bg {
+		height: calc(30vw);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		@include media($tablet) {
+			height: calc(20vw);
+			min-height: 300px;
+		 } 
+	}
+	.elevate-quote {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		@include media($tablet) {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+	}
+	.the-headline{
+		@include media($tablet) {
+			font-size: 50px;
+		}
+	}
+	p {
+		font-weight: 300;
+		color: #2e2e2e;
+		max-width: 960px;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 40px;
+		padding-left: 30px;
+		padding-right: 30px;
+		@include media($tablet) {
+			padding-left: 0;
+			padding-right: 0;
+			font-size: 30px;
+			line-height: 50px;
+			
+		}
+		position: relative;
+		&:before {
+		    position: absolute;
+		    content: "";
+		    height: 26px;
+		    width: 32px;
+		    left: 0px;
+		    top: 0px;
+		    background: url('images/review-quote.jpg');
+		    background-repeat: no-repeat;
+		    @include media($tablet) {
+			    top: 10px;
+			    left: -26px;
+		    }
+		}
+		&:after {
+		    position: absolute;
+		    content: "";
+		    height: 26px;
+		    width: 32px;
+		    right: 0px;
+		    background: url('images/review-quote.jpg');
+		    background-repeat: no-repeat;
+		    transform: rotate(180deg);
+		    bottom: 0px;
+		    @include media($tablet) {
+			    bottom: 10px;
+		    	right: -26px;
+		    }
+		}
+	}
+	.button {
+		display: block;
+		margin-bottom: 10px;
+		@include media($tablet) {
+			margin-bottom: 0px;
+			margin-right: 10px;
+			display: inline-block;
+		}
+	}
+}
 
 
 
@@ -61,6 +144,8 @@
 		padding: 10px 40px;
 	}
 	ul {
+		max-width: 1150px;
+		margin: 0 auto;
 		list-style: none;
 		display: flex;
 		flex-wrap: wrap;

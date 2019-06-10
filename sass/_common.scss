@@ -99,10 +99,10 @@ a.page-numbers.current,
 
 .submit-btn {
 	color: $lightColor;
-	padding: 15px 60px 15px 40px;
+	// padding: 15px 60px 15px 40px;
 	&:hover {
 	color: $lightColor;
-		background: transparent;
+		// background: transparent;
 	}
 }
 
@@ -116,17 +116,17 @@ a.page-numbers.current,
 		background: transparent !important;
 	}
 }
-.type-submitbutton::before {
-    content: '';
-    position: absolute;
-    top: 10px;
-    right: calc(50% - 50px);
-	background-image: url('images/icon-email.png');
-    background-size: 29px 29px;
-    width: 29px;
-    height: 29px;
-    z-index: 0;
-}
+// .type-submitbutton::before {
+//     content: '';
+//     position: absolute;
+//     top: 10px;
+//     right: calc(50% - 50px);
+// 	background-image: url('images/icon-email.png');
+//     background-size: 29px 29px;
+//     width: 29px;
+//     height: 29px;
+//     z-index: 0;
+// }
 
 .disclaimer {
 	font-size: 11px;
