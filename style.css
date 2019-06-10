@@ -7111,7 +7111,6 @@ header,
 .welcome-parallax,
 .footer-recent-blogs,
 .home-featured-procedures,
-.home-aboutus,
 .home-doctor,
 .home-featured-procedures .home-before-after,
 .home-before-after {
@@ -7437,63 +7436,6 @@ header,
   .bg-header-cruve-inside {
     background-size: 150% auto;
   }
-}
-
-.the-line {
-  background-color: #3d9be9;
-  height: 6px;
-  width: 100%;
-  position: relative;
-  margin-bottom: 20px;
-}
-
-@media only screen and (min-width: 768px) {
-  .the-line {
-    margin-bottom: 40px;
-  }
-}
-
-@media only screen and (min-width: 1080px) {
-  .the-line {
-    left: -40px;
-    width: calc(100% + 80px);
-  }
-}
-
-/*====================================
-=            home-aboutus            =
-====================================*/
-.home-aboutus {
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-position-x: -100px;
-  background-position-y: 80px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: left;
-}
-
-@media only screen and (min-width: 768px) {
-  .home-aboutus {
-    background-position: top left;
-    background-position-y: 40px;
-  }
-}
-
-@media only screen and (min-width: 1080px) {
-  .home-aboutus {
-    background-position: top center;
-    background-position-x: calc(50% - 200px);
-  }
-}
-
-.home-aboutus h2 {
-  text-align: center;
-}
-
-.home-aboutus p a {
-  text-decoration: underline;
-  color: #3d9be9;
 }
 
 /*===================================
