@@ -1,9 +1,10 @@
 /* Naviagation bar */
 
 .nav-bar {
-	z-index: 9998;
+	z-index: 8998;
 	border: 1px solid red;
 	border: 1px solid rgba($primaryColor, 1);
+	background: $lightColor;
 	position: relative;
 	display: block;
 	position: fixed;
@@ -19,15 +20,18 @@
 		left: 0px;
 		right: 0px;
 		top: 0px;
-		> section {
-		height: 160px;
-			display: flex;
-			flex-wrap: nowrap;
-			justify-content: space-between;
-			align-items: center;
-			border: 1px solid red;
-		} 
 	}
+	> section {
+		height: 60px;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: center;
+		border: 1px solid red;
+		@include media($desktop) {
+			height: 160px;
+		}
+	} 
 	.is--ipad & {
 		height: 60px;
 	}
@@ -35,43 +39,80 @@
 
 .nav-logo {
 	position: relative;
-	width: 242px;
+	width: auto;
+	img {
+		height: 50px;
+		@include media($desktop) {
+			height: auto;
+		}
+	}
+	@include media($desktop) {
+		width: 242px;
+	}
 }
 
-.two-up-nav {
-	width: calc(100% - 270px);
-	text-align: right;
-	// height: 160px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	align-items: center;
+@include media($desktop) {
+	.two-up-nav {
+		width: calc(100% - 270px);
+		text-align: right;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		align-items: center;
+	}
 }
 
 
 .nav-bar-phones {
 	width: 100%;
-	border-bottom: 2px solid $primaryColor;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
+	background: $primaryColor;
+	// position: relative;
+	// left: right;
+	@include media($desktop) {
+		background: transparent;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		border-bottom: 2px solid $primaryColor;
+	}
+	span {
+		display: none;
+		@include media($desktop) {
+			display: inline-block;
+		}
+	}
+	i {
+		color: $lightColor;
+		display: block;
+		@include media($desktop) {
+			display: none;
+		}
+	}
 	a {
 		text-decoration: none;
 		font-weight: bold;
 		color: $darkColor;
+		display: block;
+		@include media($desktop) {
+			display: inline-block;
+		}
 	}
 }
+
+
 
 /* MOBILE NAV */
 /* MOBILE NAV */
 /* MOBILE NAV */
 
 .menu-trigger {
+	display: none;
+	z-index: 8999;
+
 	position: relative;
 	padding: 15px 20px 15px 20px;
-	height: 100%;
-	position: absolute;
+	position: fixed;
 	right: 0px;
-	background: $primaryAlt;
+	background: $primaryColor;
 	width: 65px;
 	.is--ipad & {
 		position: absolute;
@@ -93,7 +134,7 @@
 		position: relative;
 		width: 100%;
 		height: 2px;
-		background: $secondaryColor;
+		background: $lightColor;
 		&:first-of-type {
 			margin-top: 6px;
 		}
@@ -122,53 +163,10 @@
 		padding-top: 0;
 		background-size: cover;
 		height: 530px;
-		// .tmpl_type_rmg_single_case & {
-		// 	height: 400px;
-		// }
 	}
 	@include media($desktop) {
 		background-position: center center;
 		height: 730px;
-		.tmpl_type_rmg_single_case & {
-			height: 530px;
-			.inside-logo {
-				margin-top: 150px;
-			}
-		}
 	}
 }
 
-// .inside-logo {
-// 	background-color: #6d4c39;
-// 	display: block;
-// 	text-align: center;
-// 	position: absolute;
-// 	width: 100%;
-// 	padding-top: 15px;
-// 	padding-bottom: 15px;
-// 	top: 60px;
-// 	overflow: hidden;
-// 	@include media($tablet) {
-// 		background-color: transparent;
-// 		width: auto;
-// 		height: auto;
-// 		position: relative;
-// 		margin: 0 auto;
-// 		margin-left: 10vw;
-// 		margin-top: 180px;
-// 	}
-// 	@include media($desktop) {
-// 		margin-top: 200px;
-// 	}
-// 	img {
-// 		width: 200px;
-// 		@include media($tablet) {
-// 			margin: 0 auto;
-// 			display: block;
-// 			width: 350px;
-// 		}
-// 		@include media($desktop) {
-// 			width: auto;
-// 		}
-// 	}
-// }

@@ -11,9 +11,9 @@ body {
 	background-color: $lightColor;
 	min-width: 320px;
 	text-align: center;
-	font: 20px/26px $defaultfont;
+	font: 16px/24px $defaultfont;
 	@include media($tablet) {
-		// font: 16px/26px $defaultfont;
+		font: 18px/26px $defaultfont;
 	}
 }
 
@@ -64,23 +64,23 @@ h2,
 	font-size: 30px;
 	line-height: 40px;
 	@include media($tablet) {
-		font-size: 60px;
-		line-height: 65px;
+		font-size: 47px;
+		line-height: 55px;
 	}
 }
 
 h3 {
 	font-size: 26px;
 	@include media($tablet) {
-		font-size: 34px;
-		line-height: 48px;
+		font-size: 30px;
+		line-height: 35px;
 	}
 }
 
 h4 {
 	font-size: 24px;
 	@include media($tablet) {
-		font-size: 30px;
+		font-size: 28px;
 	}
 }
 

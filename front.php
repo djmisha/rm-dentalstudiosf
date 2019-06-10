@@ -8,39 +8,37 @@
 <div class="welcome-parallax will-parallax parallax-welcome b-lazy" data-src="<?php bloginfo('template_directory'); ?>/images/bg-welcome.jpg">
 	<div class="welcome" id="skiptomaincontent">
 		<div class="welcome-cta">
-			<div class="bg-header-cruve-home-mobile"></div>
-			<div class="welcome-logo">
-			<h1><a href="<?php bloginfo('url'); ?>"><div> <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="b-lazy" data-src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="Designer Smiles"> </div></a></h1> </div>
 			<h2><?php the_field('welcome_headline'); ?></h2>
-			<?php the_field('welcome_content'); ?>
-			<a href="<?php bloginfo('url'); ?>/contact-us/" class="button" rel="nofollow" rel="nofollow">Make an Appointment <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="b-lazy" data-src="<?php bloginfo('template_directory'); ?>/images/icon-cal.png" alt="icon"></a>
-			<a href="<?php the_field('gallery_button'); ?>" class="button" rel="nofollow" rel="nofollow">Smile Gallery <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="b-lazy" data-src="<?php bloginfo('template_directory'); ?>/images/icon-photo.png" alt="icon"></a>
+			<h3><?php the_field('welcome_subheadline'); ?></h3>
+			<div class="button" rel="nofollow">Book Online</div>
 		</div>
 	</div>
 </div> 
 
-<section class="home-aboutus b-lazy" data-src="<?php bloginfo('template_directory'); ?>/images/icon-dlogo.png">
-	<h2><?php the_field('about_headline'); ?></h2>
-	<?php the_field('about_content'); ?>
-</section>
-
-<section class="home-doctor b-lazy" data-src="<?php bloginfo('template_directory'); ?>/images/bg-curves-red.jpg">
+<section class="home-doctor">
+	<h2>Meet Our Dentists</h2>
 	<div class="split-line"></div>
 	<div class="doc-content">
-		<img data-src="<?php bloginfo('template_directory'); ?>/images/img-doctors.png" alt="doctor" class="doc-image b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
-		<div class="doc-quote">
-			<?php the_field('doctor_cont'); ?>
-		</div>
+		<?php if(have_rows('doctors')): ?>
+			<ul>
+				<?php while(have_rows('doctors')): the_row(); ?>
+					<li>
+						<img src="<?php the_sub_field('image'); ?>" alt="<?php the_sub_field('link_text'); ?>">
+						<h3><?php the_sub_field('name'); ?></h3>
+						<?php the_sub_field('content'); ?>
+						<a href="<?php the_sub_field('link'); ?>" class="button" rel="nofollow"><?php the_sub_field('link_text'); ?></a>
+					</li>
+				<?php endwhile; ?>
+			</ul>
+		<?php endif; ?>
 	</div>
 </section>
 
-
-
-<div class="home-featured-procedures b-lazy" data-src="<?php bloginfo('template_directory'); ?>/images/bg-curves-yellow.jpg">
-	<?php if(have_rows('featured_procedures_1')): ?>
+<div class="home-featured-procedures">
+	<?php if(have_rows('featured_procedures')): ?>
 		<?php $count = 3; ?>
 		<ul>
-			<?php while(have_rows('featured_procedures_1')): the_row(); ?>
+			<?php while(have_rows('featured_procedures')): the_row(); ?>
 				<li style="background-image: url('<?php the_sub_field('image'); ?>');" class="wow fadeIn" data-wow-offset="20" data-wow-delay=".<?echo $count; ?>0s" data-wow-duration=".5s" >
 					<div class="proced-name">
 						<a href="<?php the_sub_field('procedure_link'); ?>">
