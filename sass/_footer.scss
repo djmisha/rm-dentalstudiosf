@@ -5,6 +5,14 @@
 
 
 
+.elevate-bg {
+	min-height: 300px;
+	height: calc(20vw);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+
 
 .upper-footer {
 	background: #fff url("images/bg-footer-form.jpg") center center no-repeat;

@@ -23,51 +23,51 @@
 
 <a href="#skiptomaincontent" style="display:none;">Skip to main content</a>
 
-<header class="site-header <?php echo is_front_page() ? 'front-header' : 'int-header b-lazy will-parallax parallax-internal-header'; ?>" <?php get__header__image(); ?> >
+<header class="site-header <?php echo is_front_page() ? 'front-header' : 'int-header'; ?>" <?php get__header__image(); ?> >
+	<div class="menu-trigger">
+		<div class="hamburger"></div>
+		<div class="hamburger"></div>
+		<div class="hamburger"></div>
+		<!-- <div class="trigger-text">MENU</div> -->
+	</div>
+
 
 	<div class="nav-bar">
 		<section>
-			
-		<div class="menu-trigger">
-			<div class="hamburger"></div>
-			<div class="hamburger"></div>
-			<div class="hamburger"></div>
-			<!-- <div class="trigger-text">MENU</div> -->
-		</div>
-		<div class="nav-logo">
-			 <a href="<?php bloginfo('url'); ?>">
-			 	<img src="<?php bloginfo('template_directory'); ?>/images/svg/logo.svg" alt="Logo">
-			 </a>
-		</div>
-		<div class="nav-bar-extras">
-			<div class="connect">
-				<i class="fas fa-comments"></i>
+			<div class="nav-logo">
+				<a href="<?php bloginfo('url'); ?>">
+					<img src="<?php bloginfo('template_directory'); ?>/images/svg/logo.svg" alt="Logo">
+				</a>
 			</div>
-			<?php if(have_rows('locations', 'option')): ?>
-				<?php while(have_rows('locations', 'option')): the_row(); ?>
-					<a href="<?php the_sub_field('phone_link'); ?>" class="head-phone track-outbound" data-label="Phone - Header"><?php the_sub_field('phone'); ?></a>
-				<?php endwhile; ?>
-			<?php endif; ?>
-		</div> 
-		<nav>
-			<?php wp_nav_menu( array(
-				'menu' 		=> 'Main',
-				'container_class' => 'menu-wrap menu-is-closed',
-				'menu_id'	=> 'menu-main',
-				'menu_class' => 'main-menu',
-			)); ?>
-		</nav> 
+			<div class="two-up-nav">
+				<div class="nav-bar-phones">
+					<?php if(have_rows('locations', 'option')): ?>
+						<?php while(have_rows('locations', 'option')): the_row(); ?>
+							<a href="<?php the_sub_field('phone_link'); ?>" class="head-phone track-outbound" data-label="Phone - Header">Call <?php the_sub_field('phone'); ?></a>
+							<a href="<?php the_sub_field('phone_link'); ?>" class="head-phone track-outbound" data-label="Phone - Header">Text <?php the_sub_field('phone'); ?></a>
+						<?php endwhile; ?>
+					<?php endif; ?>
+				</div> 
+				<nav>
+					<?php wp_nav_menu( array(
+						'menu' 		=> 'Main',
+						'container_class' => 'menu-wrap menu-is-closed',
+						'menu_id'	=> 'menu-main',
+						'menu_class' => 'main-menu',
+					)); ?>
+				</nav> 
+			</div>
 		</section>
 	</div>
 
 	<?php 
 		// Inside Page Loho 
-		if(!is_front_page()): 
-	 ?>
+	if(!is_front_page()): 
+		?>
 		<div class="inside-logo">
-			 <a href="<?php bloginfo('url'); ?>">
-			 	<img src="<?php bloginfo('template_directory'); ?>/images/logo.svg" alt="Logo">
-			 </a>
+			<a href="<?php bloginfo('url'); ?>">
+				<img src="<?php bloginfo('template_directory'); ?>/images/logo.svg" alt="Logo">
+			</a>
 		</div>
 		<div class="bg-header-cruve-inside"></div>
 	<?php endif; ?>
@@ -75,33 +75,33 @@
 </header> 
 
 <?php if(!is_front_page() ): // Inside Page and H1 ?>
-<section class="site-crumbs">
-	<?php echo __salaciouscrumb(); ?>
-</section>
+	<section class="site-crumbs">
+		<?php echo __salaciouscrumb(); ?>
+	</section>
 
-<section class="page-title">
-	<?php if(is_front_page()): ?>
-		<h1><?php // do nothing if homepage  ?></h1>
-	<?php elseif(this_is('gallery-case')): ?>
-		<?php $category_title =  get_the_title($post->in_cat_ID); ?>
-		<h1><?//php echo $category_title ?> Smile Gallery</h1>
-	<?php elseif(this_is('gallery-child')): ?>
-		<?php $category_title =  get_the_title($post->in_cat_ID); ?>
-		<h1 id="smilegallery"><?php //echo $category_title ?> Smile Gallery</h1>
-	<?php elseif(this_is('gallery')): ?>
-		<h1>Smile Gallery</h1>
-	<?php elseif (is_archive() =='newsroom'): ?>
-		<div class="heading-text">Newsroom</div>
-	<?php elseif (is_search()): ?>
-		<div class="heading-text">Search Results</div>
-	<?php elseif (is_home() or is_archive()): ?>
-		<div class="heading-text">Blog</div>
-	<?php elseif (is_single()): ?>
-		<div class="heading-text">Blog</div>
-	<?php else: ?> 
-		<h1><?the_title();?></h1>
-	<?php endif; ?>
-	<div class="page-title-split-line"></div>
-</section>
-<?php endif; ?>
+	<section class="page-title">
+		<?php if(is_front_page()): ?>
+			<h1><?php // do nothing if homepage  ?></h1>
+			<?php elseif(this_is('gallery-case')): ?>
+				<?php $category_title =  get_the_title($post->in_cat_ID); ?>
+				<h1><?//php echo $category_title ?> Smile Gallery</h1>
+				<?php elseif(this_is('gallery-child')): ?>
+					<?php $category_title =  get_the_title($post->in_cat_ID); ?>
+					<h1 id="smilegallery"><?php //echo $category_title ?> Smile Gallery</h1>
+					<?php elseif(this_is('gallery')): ?>
+						<h1>Smile Gallery</h1>
+						<?php elseif (is_archive() =='newsroom'): ?>
+							<div class="heading-text">Newsroom</div>
+							<?php elseif (is_search()): ?>
+								<div class="heading-text">Search Results</div>
+								<?php elseif (is_home() or is_archive()): ?>
+								<div class="heading-text">Blog</div>
+								<?php elseif (is_single()): ?>
+									<div class="heading-text">Blog</div>
+									<?php else: ?> 
+										<h1><?the_title();?></h1>
+									<?php endif; ?>
+									<div class="page-title-split-line"></div>
+								</section>
+							<?php endif; ?>
 

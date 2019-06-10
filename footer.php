@@ -19,6 +19,22 @@
 		</section> 
 
 
+		<div class="footer-elavate">
+			<div class="elevate-bg b-lazy" data-src="<?php bloginfo('template_directory'); ?>/images/bg-elavate.jpg">
+				
+			</div>
+			<section class="elevate-quote">
+				<span class="the-headline"><strong>elevate</strong> your dental experience &trade;</span>
+				<p>"I've been going to the Dental Studio for 4 years and love Jarrod and the entire team! It's more like an Apple Store than a dentist office."</p>
+				<!-- UPDATE LINKS -->
+				<!-- UPDATE LINKS -->
+				<!-- UPDATE LINKS -->
+				<a href="" class="button" rel="nofollow">Read Our Reviews</a>
+				<a href="" class="button" rel="nofollow">Leave a Review</a>
+			</section>
+
+		</div>
+
 		<section class="footer-logos">
 			<?php if(have_rows('footer_logos', 'option')): ?>
 				<ul>
@@ -50,6 +66,11 @@
 									<?php the_sub_field('phone', 'option'); ?></a>
 								</div>
 								<div class="loc-phone">
+
+				<!-- UPDATE LINKS -->
+				<!-- UPDATE LINKS -->
+				<!-- UPDATE LINKS -->
+
 								Text <a href="<?php the_sub_field('phone_link', 'option'); ?>" class="track-outbound" data-label="Phone - Footer">
 										<?php the_sub_field('phone', 'option'); ?></a>
 									</div>
@@ -80,10 +101,10 @@
 						<?php wp_nav_menu(array('menu' => 'Main'));?>
 					</section>
 					<div class="footer-disclaimer">
-						Disclaimer: The information throughout this dentistry website is not intended to be taken as medical advice. The information provided by Dr. Jarrod Cornehl, Dr. Peter Fredrickson, and the Dental Studio is intended to provide general information regarding cosmetic dentistry, porcelain veneers, routine dental cleanings and exams, pediatric dentistry, TMJ treatment, dental crowns and bridges, restorative dentistry, BOTOX and other facial fillers, and more for residents of San Francisco, Daly City, South San Francisco, San Rafael, Oakland, Berkeley, Richmond, and nearby locations in the Bay Area, California. This website is not intended for viewing or usage by European Union citizens. If you are interested in finding out more, please contact our dental office today for a personal consultation. Read our ADA compliance disclosure.
+						<!-- Disclaimer: The information throughout this dentistry website is not intended to be taken as medical advice. The information provided by Dr. Jarrod Cornehl, Dr. Peter Fredrickson, and the Dental Studio is intended to provide general information regarding cosmetic dentistry, porcelain veneers, routine dental cleanings and exams, pediatric dentistry, TMJ treatment, dental crowns and bridges, restorative dentistry, BOTOX and other facial fillers, and more for residents of San Francisco, Daly City, South San Francisco, San Rafael, Oakland, Berkeley, Richmond, and nearby locations in the Bay Area, California. This website is not intended for viewing or usage by European Union citizens. If you are interested in finding out more, please contact our dental office today for a personal consultation. Read our ADA compliance disclosure. -->
 					</div>
 					<div class="reviews_markup"><?php do_action('reviews_markup'); ?></div>
-					<div class="copyright">Copyright &copy; <?=date("Y")?> <?bloginfo('title');?>. All rights reserved | <a href="#" class="show-disc">Disclaimer</a> |<a href="<?php bloginfo('url'); ?>/privacy-policy">Privacy Policy</a> | <a href="<?php bloginfo('url'); ?>/sitemap/" title="Sitemap">Sitemap</a> </div>  
+					<div class="copyright">Copyright &copy; <?=date("Y")?> <?bloginfo('title');?>. All rights reserved <!-- | <a href="#" class="show-disc">Disclaimer</a> --> |<a href="<?php bloginfo('url'); ?>/privacy-policy">Privacy Policy</a> | <a href="<?php bloginfo('url'); ?>/sitemap/" title="Sitemap">Sitemap</a> </div>  
 					<div class="rm-sig"><a href="<?php the_field('rm_footer_link', 'options'); ?>" target="_blank" rel="noopener" title="<?php the_field('rm_footer_text', 'options'); ?>"><?php the_field('rm_footer_text', 'options'); ?></a> by <a href="https://www.rosemontmedia.com/" title="Rosemont Media" target="_blank" rel="noopener"><?php inline_svg('rm-logo'); ?></a></div>
 
 				</section>  
