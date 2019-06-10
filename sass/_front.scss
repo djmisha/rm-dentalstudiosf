@@ -115,6 +115,29 @@ footer,
 }
 
 
+/*==================================
+=            home-about            =
+==================================*/
+
+.home-about {
+	text-align: left;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	h2 {
+		text-align: center;
+	}
+	a {
+		// color: $darkColor;
+	} 
+	ul {
+		@include media($tablet) {
+			margin-left: 40px;
+		}
+	}
+
+}
+
+
 /*===================================
 =            home-doctor            =
 ===================================*/

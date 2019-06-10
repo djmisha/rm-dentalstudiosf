@@ -17,7 +17,7 @@
 	</div>
 </div>
 
-<section class="about-the-practice">
+<section class="home-about">
 	<h2><?php the_field('about_headline'); ?></h2>
 	<div class="split-line"></div>
 	<?php the_field('about_content'); ?>

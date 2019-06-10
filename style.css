@@ -7329,6 +7329,25 @@ aside li {
   }
 }
 
+/*==================================
+=            home-about            =
+==================================*/
+.home-about {
+  text-align: left;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.home-about h2 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-about ul {
+    margin-left: 40px;
+  }
+}
+
 /*===================================
 =            home-doctor            =
 ===================================*/
