@@ -2,7 +2,6 @@ aside {
 	display: block;
 	.from-blog & {
 		padding-bottom: 20px;
-
 	}
 	ul {
 		list-style: none;
@@ -10,37 +9,27 @@ aside {
 	li {
 		width: 100%;
 	}
-
 	@include media($desktop) {
-		width: 100%;
+		width: 300px;
 		display: block;
 		> div {
 			width: 100%;
 		}
 	}
-
-	.tmpl_type_single & {
-		display: none;
-	}
 }
 
 
 .sidebar-block {
-	border: 1px solid rgba( $primaryColor , .3);
 	margin-bottom: 30px;
-	padding: 20px;
-	@include media($tablet) {
-		padding: 40px 40px;
-	}
 
 	.sb-heading {
 		font-weight: lighter;
 		font-family: $secondaryFont;
-		font-size: 25px;
-		color: $primaryColor;
-		margin-bottom: 40px;
+		// font-size: 25px;
+		color: $darkColor;
+		margin-bottom: 20px;
 		padding-top: 5px;
-		text-align: center;
+		text-align: left;
 		@include media($tablet) {
 			font-size: 35px;
 		}
@@ -49,20 +38,18 @@ aside {
 		}
 	}
 	ul {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
+		background: $primaryColor;
 	}
 	li {
-		height: 25px;
 		width: auto;
-		padding-right: 5px;
-		padding-left: 5px;
+		padding-right: 10px;
+		padding-left: 10px;
 		position: relative;
+		padding-top: 5px;
+		padding-bottom: 5px;
 		@include media($tablet) {
 			padding-right: 15px;
 			padding-left: 15px;
-			border-left: 1px solid rgba($darkColor, 0.2);
 			&:first-of-type {
 				border-left: none;
 			}
@@ -73,21 +60,9 @@ aside {
 				margin-bottom: 10px;
 			}
 		}
-		// &:before {
-		// 	content: "\f15c";
-		// 	font-family: "Font Awesome 5 Pro";
-		// 	color: $primaryColor;
-		// 	position: absolute;
-		// 	left: 2px;
-		// 	top: 7px;
-		// 	font-size: 16px;
-		// }
 		a {
-			// border: 1px solid red;
 			text-decoration: none;
-			// width: auto;
-			// display: block;
-			color: $darkColor;
+			color: $lightColor;
 			line-height: 1.5em;
 			&:hover {
 				text-decoration: underline;
@@ -99,32 +74,21 @@ aside {
 	}
 
 }
-.related-pages {
-	padding-left: 20px;
-	padding-right: 20px;
-	text-align: center;
-	background:  rgba( $tertiaryColor, 1);
-	.the-headline {
-		color: $darkColor;
-		display: block;
-		margin-bottom: 30px;
-		@include media($tablet) {
-			font-size: 30px;
-		}
+
+.search-form form {
+	width: 100%;
+	display: flex;
+	margin-bottom: 40px;
+	height: 40px;
+	input {
+		border: 1px solid black;
 	}
-	li {
-		margin-bottom: 10px;
-	}
-	a {
-		color: $darkColor;
-		text-decoration: none;
-		text-transform: uppercase;
-		&:hover {
-			text-decoration: underline;
-		}
-	}
-	&.full-width {
-		margin-top: 0;
-		margin-bottom: 0;
+	.button {
+		color: $lightColor;
+		background: $primaryColor;
+		width: 100px;
+		padding: 0;
+		padding-left:20px;
+		padding-right:20px;
 	}
 }

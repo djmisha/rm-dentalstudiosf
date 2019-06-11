@@ -29,15 +29,15 @@
 									<a href="<?php the_sub_field('map_link', 'option'); ?>" target="_blank" class="track-outbound" data-label="Address - Contact Page" rel="noopener">View Directions</a><br><br>
 									
 									Phone: <a href="<?php the_sub_field('phone_link','options'); ?>"  class="track-outbound" data-label="Phone - Contact Page"><?php the_sub_field('phone','options'); ?></a><br>
-									<!-- Fax: <?php //the_sub_field('fax','options'); ?> -->
+									Text: <a href="<?php the_sub_field('text_link','options'); ?>"  class="track-outbound" data-label="Phone - Contact Page"><?php the_sub_field('text','options'); ?></a><br>
 								</div>
 							</div>
-							<div class="the-hours"><br>
+							<!-- <div class="the-hours"><br>
 								<strong>Office Hours</strong>
 								<div class="consult">
 									<?php the_sub_field('hours', 'option'); ?>
 								</div>
-							</div>
+							</div> -->
 						</div>
 
 					<?php endwhile; ?>

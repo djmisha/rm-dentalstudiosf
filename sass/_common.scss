@@ -98,7 +98,7 @@ a.page-numbers.current,
 }
 
 .submit-btn {
-	color: $lightColor;
+	// color: $lightColor;
 	// padding: 15px 60px 15px 40px;
 	&:hover {
 	color: $lightColor;
@@ -106,16 +106,16 @@ a.page-numbers.current,
 	}
 }
 
-.type-submitbutton {
-	position: relative;
-	background-color: $primaryColor;
-	&:hover {
-		color: $secondaryColor !important;
-	}
-	input {
-		background: transparent !important;
-	}
-}
+// .type-submitbutton {
+// 	position: relative;
+// 	background-color: $primaryColor;
+// 	&:hover {
+// 		color: $secondaryColor !important;
+// 	}
+// 	input {
+// 		background: transparent !important;
+// 	}
+// }
 // .type-submitbutton::before {
 //     content: '';
 //     position: absolute;

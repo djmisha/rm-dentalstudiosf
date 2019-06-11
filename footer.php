@@ -3,6 +3,7 @@
 <footer>
 
 	<section class="upper-footer">
+	<?php if(!is_page(array('contact'))) { //Sidebar Related Pages  ?>
 		<div class="footer-form">
 			<span class="the-headline">Make An Appointment</span>
 			<div class="split-line"></div>
@@ -15,9 +16,9 @@
 					<?php endif; ?>
 				or send us a message</p>
 				<?php echo do_shortcode('[seaforms name="contact-us"]'); ?>
-			</div>
-		</section> 
-
+		</div>
+	<?php } ?>
+	</section> 
 
 		<div class="footer-elavate">
 			<?php if( is_front_page()) { ?>
@@ -28,13 +29,9 @@
 			<section class="elevate-quote">
 				<span class="the-headline"><strong>elevate</strong> your dental experience &trade;</span>
 				<p>"I've been going to the Dental Studio for 4 years and love Jarrod and the entire team! It's more like an Apple Store than a dentist office."</p>
-				<!-- UPDATE LINKS -->
-				<!-- UPDATE LINKS -->
-				<!-- UPDATE LINKS -->
-				<a href="" class="button" rel="nofollow">Read Our Reviews</a>
-				<a href="" class="button" rel="nofollow">Leave a Review</a>
+				<a href="<?php bloginfo('url'); ?>/reviews/" class="button" rel="nofollow">Read Our Reviews</a>
+				<a href="<?php bloginfo('url'); ?>/write-us-a-review/" class="button" rel="nofollow">Leave a Review</a>
 			</section>
-
 		</div>
 
 		<section class="footer-logos">
@@ -53,14 +50,12 @@
 		<section class="footer-location">
 			<div class="footer-address-box">
 				<a href="<?php bloginfo('url'); ?>" class="footer-logo">
-					<?php //inline_svg('logo'); ?>
 					<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?php bloginfo('template_directory'); ?>/images/svg/logo.svg" alt="Logo" class="b-lazy">
 				</a>
 				<?php if(have_rows('locations', 'option')): ?>
 					<?php while(have_rows('locations', 'option')): the_row(); ?>
 						<div class="the-loc">
 							<a href="<?php the_sub_field('map_link', 'option'); ?>" class="track-outbound" data-label="Address - Footer" target="_blank"  rel="noopener">
-								<!-- <?php the_sub_field('name', 'option'); ?><br> -->
 								<?php the_sub_field('address', 'option'); ?><br /> <?php the_sub_field('city', 'option'); ?> 
 							</a>
 							<div class="loc-phone">
@@ -68,13 +63,8 @@
 									<?php the_sub_field('phone', 'option'); ?></a>
 								</div>
 								<div class="loc-phone">
-
-				<!-- UPDATE LINKS -->
-				<!-- UPDATE LINKS -->
-				<!-- UPDATE LINKS -->
-
-								Text <a href="<?php the_sub_field('phone_link', 'option'); ?>" class="track-outbound" data-label="Phone - Footer">
-										<?php the_sub_field('phone', 'option'); ?></a>
+								Text <a href="<?php the_sub_field('text_link', 'option'); ?>" class="track-outbound" data-label="Phone - Footer">
+										<?php the_sub_field('text', 'option'); ?></a>
 									</div>
 								</div>
 							<?php endwhile; ?>

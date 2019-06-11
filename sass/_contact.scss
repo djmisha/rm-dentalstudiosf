@@ -1,4 +1,4 @@
-.contact-us {
+.contact {
 	.button {
 		margin-bottom: 10px;
 	}
@@ -57,7 +57,9 @@
 		}
 	}
 	.contact-form {
+		margin-bottom: 50px;
 		@include media($tablet) {
+		margin-bottom: 0px;
 			width: 50%;
 			padding-right: 50px;
 		}
@@ -96,7 +98,7 @@
 			// display: flex;
 		}
 		strong {
-			font-size: 16px;
+			// font-size: 16px;
 		}
 	}
 	.address {

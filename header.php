@@ -43,7 +43,7 @@
 					<?php if(have_rows('locations', 'option')): ?>
 						<?php while(have_rows('locations', 'option')): the_row(); ?>
 							<a href="<?php the_sub_field('phone_link'); ?>" class="head-phone track-outbound" data-label="Phone - Header"><i class="fas fa-phone-volume"></i> Call <span><?php the_sub_field('phone'); ?></span></a>
-							<a href="<?php the_sub_field('phone_link'); ?>" class="head-phone track-outbound" data-label="Phone - Header"><i class="fas fa-comment-alt-lines"></i> Text <span><?php the_sub_field('phone'); ?></span></a>
+							<a href="<?php the_sub_field('text_link'); ?>" class="head-phone track-outbound" data-label="Phone - Header"><i class="fas fa-comment-alt-lines"></i> Text <span><?php the_sub_field('text'); ?></span></a>
 						<?php endwhile; ?>
 					<?php endif; ?>
 				</div> 
@@ -58,8 +58,6 @@
 			</div>
 		</section>
 	</div>
-
-	
 
 </header> 
 

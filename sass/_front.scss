@@ -87,6 +87,7 @@ footer,
 		color: $lightColor;
 		&:hover {
 			background: $primaryAlt;
+			border: 2px solid $primaryAlt;
 		}
 	}
 }
@@ -132,7 +133,7 @@ footer,
 		text-align: center;
 	}
 	a {
-		// color: $darkColor;
+		color: $darkColor;
 	} 
 	ul {
 		@include media($tablet) {
