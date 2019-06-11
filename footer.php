@@ -20,9 +20,11 @@
 
 
 		<div class="footer-elavate">
+			<?php if( is_front_page()) { ?>
 			<div class="elevate-bg b-lazy" data-src="<?php bloginfo('template_directory'); ?>/images/bg-elavate.jpg">
 				
 			</div>
+			<?php } ?>
 			<section class="elevate-quote">
 				<span class="the-headline"><strong>elevate</strong> your dental experience &trade;</span>
 				<p>"I've been going to the Dental Studio for 4 years and love Jarrod and the entire team! It's more like an Apple Store than a dentist office."</p>
@@ -90,7 +92,6 @@
 								<a href="<?php the_sub_field('map_link', 'option'); ?>" class="track-outbound button" data-label="Address - Footer" target="_blank"  rel="noopener">
 									Map & Directions
 								</a>
-
 							<?php endwhile; ?>
 						<?php endif; ?>
 					</div> 
@@ -98,7 +99,10 @@
 
 				<section class="lower-footer">
 					<section class="footer-nav">
-						<?php wp_nav_menu(array('menu' => 'Main'));?>
+						<?php wp_nav_menu(array(
+							'menu' => 'Main',
+							'depth' => 1,
+						 ));?>
 					</section>
 					<div class="footer-disclaimer">
 						<!-- Disclaimer: The information throughout this dentistry website is not intended to be taken as medical advice. The information provided by Dr. Jarrod Cornehl, Dr. Peter Fredrickson, and the Dental Studio is intended to provide general information regarding cosmetic dentistry, porcelain veneers, routine dental cleanings and exams, pediatric dentistry, TMJ treatment, dental crowns and bridges, restorative dentistry, BOTOX and other facial fillers, and more for residents of San Francisco, Daly City, South San Francisco, San Rafael, Oakland, Berkeley, Richmond, and nearby locations in the Bay Area, California. This website is not intended for viewing or usage by European Union citizens. If you are interested in finding out more, please contact our dental office today for a personal consultation. Read our ADA compliance disclosure. -->

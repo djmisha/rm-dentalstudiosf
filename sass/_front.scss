@@ -169,7 +169,7 @@ footer,
 				max-width: 350px;
 			}
 			img {
-				width: 140px;
+				width: 100px;
 				float: right;
 				margin-left: 10px;
 				margin-bottom: 10px;
@@ -212,11 +212,9 @@ footer,
 	li {
 		text-align: left;
 		width: 100%;
-		// margin-right: ;
+		margin-bottom: 40px;
 		@include media($tablet) {
 			width: 44%;
-		margin-bottom: 40px;
-			
 		}
 		@include media($desktop) {
 			width: 31%;
@@ -235,7 +233,9 @@ footer,
 		margin-bottom:100px;
 	}
 	span {
-		font-size: 20px;
+		@include media($tablet) {
+			font-size: 20px;
+		}
 	}
 	p {
 		color: $primaryAlt;

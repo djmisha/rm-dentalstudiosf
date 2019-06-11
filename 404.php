@@ -14,7 +14,7 @@
 		}
 	
 		html {
-			background: #701b15; /* DARK color */
+			background: #3d9be9; /* DARK color */
 			color: #fff; /* BODY text color */
 			font-family: 'OpenSans', sans-serif;
 			font-size: 36px;
@@ -63,8 +63,8 @@
 		}
 		
 		#four-oh-four-nav-wrap {
-			border-top: 20px solid #e1ab4c;  /* LIGHT color */
-			border-bottom: 20px solid #e1ab4c;  /* LIGHT color */
+			border-top: 20px solid #777777;  /* LIGHT color */
+			border-bottom: 20px solid #777777;  /* LIGHT color */
 			text-align:center;
 			width:100%;
 			background: #fff; /* LINKS background color */
@@ -89,7 +89,7 @@
 		
 		#four-oh-four-nav-wrap nav ul {
 			display:block;
-			/*border-top: 1px solid #e1ab4c; /* DARK color */*/
+			/*border-top: 1px solid #777777; /* DARK color */*/
 			text-align: center;
 			padding:0;
 			margin: 20px 15px;
@@ -98,7 +98,7 @@
 		#four-oh-four-nav-wrap nav ul li {
 			display:block;
 			height:auto;
-			/*border-bottom: 1px solid #e1ab4c; /* DARK color */*/
+			/*border-bottom: 1px solid #777777; /* DARK color */*/
 			list-style: none;
 			font-size: 29px;
 			line-height:1em;
@@ -109,12 +109,13 @@
 			padding: 10px 5px;
 			height:auto;
 			text-decoration: none;
-			color: #701b15;
+			color: #3d9be9;
 		}
 		
 		#four-oh-four-nav-wrap nav ul li a:hover {
 			text-decoration: none;
-			background-color: #e1ab4c;
+			background-color: #3d9be9;
+			color: white;
 		}
 		
 		.copy {

@@ -13,7 +13,7 @@ body {
 	text-align: center;
 	font: 16px/24px $defaultfont;
 	@include media($tablet) {
-		font: 18px/26px $defaultfont;
+		font: 18px/30px $defaultfont;
 	}
 }
 
@@ -64,7 +64,7 @@ h2,
 	font-size: 30px;
 	line-height: 40px;
 	@include media($tablet) {
-		font-size: 47px;
+		font-size: 40px;
 		line-height: 55px;
 	}
 }
@@ -122,6 +122,7 @@ main,
 		padding: 0 20px;
 	}
 	@include media($desktop) {
+		padding: 0 40px;
 		// padding: 0  calc(40px + (50% - (#{$desktop} / 2)));
 	}
 	@include media(1280px) {
