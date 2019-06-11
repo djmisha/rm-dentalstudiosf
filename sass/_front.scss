@@ -123,6 +123,11 @@ footer,
 	text-align: left;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	@include media($tablet) {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		
+	}
 	h2 {
 		text-align: center;
 	}
