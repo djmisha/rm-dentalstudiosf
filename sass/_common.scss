@@ -79,11 +79,14 @@ a.page-numbers.current,
 	line-height: 25px;
 	text-transform: none;
 	font-family: $primaryFont;
-	padding: 15px 60px;
+	padding: 15px 40px;
 	transition: all 0.2s ease-in-out;
 	background: transparent;
 	border: 2px solid $primaryColor;
 	text-transform: uppercase;
+	@include media($tablet) {
+		padding: 15px 60px;
+	}
 	&:hover {
 		text-decoration: none;
 		background: $primaryColor;
@@ -101,7 +104,7 @@ a.page-numbers.current,
 	// color: $lightColor;
 	// padding: 15px 60px 15px 40px;
 	&:hover {
-	color: $lightColor;
+	// color: $lightColor !important;
 		// background: transparent;
 	}
 }

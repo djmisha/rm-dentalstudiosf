@@ -15,9 +15,14 @@
 	<?php wp_head()?>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104708160-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-
-
+	  gtag('config', 'UA-104708160-1');
+	</script>
 
 
 	<!-- Facebook Pixel Code -->
@@ -65,7 +70,7 @@
 					<?php if(have_rows('locations', 'option')): ?>
 						<?php while(have_rows('locations', 'option')): the_row(); ?>
 							<a href="<?php the_sub_field('phone_link'); ?>" class="head-phone track-outbound" data-label="Phone - Header"><i class="fas fa-phone-volume"></i> Call <span><?php the_sub_field('phone'); ?></span></a>
-							<a href="<?php the_sub_field('text_link'); ?>" class="head-phone track-outbound" data-label="Phone - Header"><i class="fas fa-comment-alt-lines"></i> Text <span><?php the_sub_field('text'); ?></span></a>
+							<a href="<?php the_sub_field('text_link'); ?>" class="head-text track-outbound" data-label="Phone - Header"><i class="fas fa-comment-alt-lines"></i> Text <span><?php the_sub_field('text'); ?></span></a>
 						<?php endwhile; ?>
 					<?php endif; ?>
 				</div> 

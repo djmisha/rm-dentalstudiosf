@@ -62,7 +62,7 @@ footer,
 	}
 	h2 {
 		font-weight: lighter;
-			font-size: 40px;
+		font-size: 40px;
 		@include media($tablet) {
 			font-size: 60px;
 			// line-height: 85px;
@@ -77,8 +77,8 @@ footer,
 		font-size: 18px;
 		font-weight: 300;
 		@include media($tablet) {
-		margin-top: 40px;
-		margin-bottom: 40px;
+			margin-top: 40px;
+			margin-bottom: 40px;
 			
 		}
 	}
@@ -110,7 +110,7 @@ footer,
 	@include media($desktop) {
 		padding-left: 40px;
 		padding-right: 40px;
-		font-size: 30px;
+		font-size: 25px;
 		line-height: 30px;
 	}
 }
@@ -182,6 +182,12 @@ footer,
 			}
 		}
 	}
+	h3 {
+		font-size: 20px;
+		@include media($tablet) {
+			font-size: 30px;
+		}
+	}
 	.button {
 		margin-top: 40px;
 		display: block;
@@ -211,10 +217,11 @@ footer,
 		justify-content: space-between;
 	}
 	li {
-		text-align: left;
+		text-align: center;
 		width: 100%;
 		margin-bottom: 40px;
 		@include media($tablet) {
+			text-align: left;
 			width: 44%;
 		}
 		@include media($desktop) {
@@ -229,9 +236,14 @@ footer,
 		width: 106px;
 		height: 106px;
 		background-repeat: no-repeat;
-		float: left;
-		margin-right: 20px;
-		margin-bottom:100px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		@include media($tablet) {
+			margin-right: 20px;
+			float: left;
+			margin-bottom:100px;
+			
+		}
 	}
 	span {
 		@include media($tablet) {
@@ -242,5 +254,3 @@ footer,
 		color: $primaryAlt;
 	}
 }
-
-

@@ -38,82 +38,20 @@
 		
 
 
-		/* Homepage Procedures Slideshow */
-
-		
-		$('.the-slider').owlCarousel({
-			// lazyLoad:true,
-			loop:true,
-			nav:true,
-			dots:false,
-			autoplay: true,
-			autoplayTimeout: 9000,
-			smartSpeed: 1200,
-			navText : ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-
-			responsive : {
-			    // breakpoint from 0 up
-			    0 : {
-					items:1,
-			    },
-			    // breakpoint from 768 up
-			    768 : {
-					items:2,
-			    }
-			}
-		});
-
-
-
-		/*===================================
-		=            Sticky             =
-		===================================*/
-
-		/* Change Up Navigation on Scroll Down */
-		$(window).scroll(function () {
-			if ($(window).scrollTop() > 50 && $('html').hasClass('not--device') 
-				&& 
-				$(window).width() > 1080
-				) 
-			{
-				$('.nav-bar').addClass('change-up-nav');
-			} else {
-				$('.nav-bar').removeClass('change-up-nav');
-			}
-	    });
-
-
-
-		/*Change Up Sticky Footer on scroll down*/
-
-    	$(window).scroll(function () {
-    	      if ($(window).scrollTop() > 50 && $('html').hasClass('not--device') 
-    	      	&& 
-
-    	      	$(window).width() > 1080
-
-    	      	&&
-    	      	
-    	      	$(window).height() > 900 //not on short laptop screens
-
-    	      	) 
-
-    	      {
-    			$('.sticky-form').addClass('sticky-fixed');
-    	      } else {
-    			$('.sticky-form').removeClass('sticky-fixed');
-    	      }
-        });
-
+		$('.home .upper-footer').insertAfter('.home-featured-procedures');
+	
 
     	/* Mobile Connect Button and Form */
 
-		$('.connect').click(function(event) {
-			/* Act on the event */
-			$(this).toggleClass('chat-on');
-			$('.sticky-form').toggleClass('sticky-mobile-fixed');
-
-		});
+		// $('.head-text span').click(function(event) {
+		// 	/* Act on the event */
+		// 	var copyText = document.getElementById('textnumber');
+		// 	// copyText.select();
+		// 	console.log(copyText.data());
+		// 	// $(this).select();
+		// 	document.execCommand("copy");
+		// 	alert("Copied to clipboard");
+		// });
 
 
 		
@@ -136,10 +74,10 @@
 				if ($(".parallax").hasClass("parallax")) {
 					$(".will-parallax").waypoint(function() {
 						$(".parallax-welcome").parallax("center", -0.3, true); 
-						$(".home-doctor-parallax").parallax("center", -0.4, true);
+						// $(".home-doctor-parallax").parallax("center", -0.4, true);
 						// $(".home-reviews-parallax").parallax("center", -0.2, true);
 						// $('.parallax-home-breast').parallax('center', -0.3, true , 'is-parallaxing');
-						$(".parallax-internal-header").parallax("center", -0.1, true);
+						// $(".parallax-internal-header").parallax("center", -0.1, true);
 					});
 				}
 			}
@@ -163,42 +101,17 @@
 
 
 
-		/*================================================================
-		=            Custom Landing Page Header, Append Items            =
-		================================================================*/
-
-		function checkWidth() {
-			var $window = $(window);
-			var windowsize = $window.width();
-			if (windowsize >= $desktop) {
-				// $(".tmpl_type_page_landing .site-crumbs").appendTo("header");
-				$(".tmpl_type_page_landing .page-title").appendTo("header");
-				$(".tmpl_type_page_landing .flexible-basic-content:first-of-type()").appendTo("header");
-
-			  }
-			  else {
-			  	// $(".tmpl_type_page_landing .site-crumbs").prependTo(".interior");
-			  	$(".tmpl_type_page_landing .page-title").prependTo(".content");
-			  	$(".tmpl_type_page_landing .flexible-basic-content:first-of-type()").prependTo(".content");
-			  }
-			}
-		// Execute on load
-		checkWidth();
-		// Bind event listener
-		$(window).resize(checkWidth);
-
-
-
 		/*=========================================
-			=            Footer Disclaimer            =
-			=========================================*/
-			
-			$('.show-disc').click(function(event) {
-				/* Act on the event */
-				event.preventDefault();
-					$('.footer-disclaimer').fadeIn('400', function() {
-				});
+		=            Footer Disclaimer            =
+		=========================================*/
+
+		
+		$('.show-disc').click(function(event) {
+			/* Act on the event */
+			event.preventDefault();
+				$('.footer-disclaimer').fadeIn('400', function() {
 			});
+		});
 
 
 	}); // end of doc.ready

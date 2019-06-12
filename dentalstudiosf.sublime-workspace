@@ -1,0 +1,2010 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"app",
+				"appendTo\t.appendTo()"
+			],
+			[
+				"ta",
+				"ta-l\ttext-align: left;"
+			],
+			[
+				"se",
+				"secondaryColor"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"fxd",
+				"fxd-c\tflex-direction: column;"
+			],
+			[
+				"temp",
+				"temp\tPHP Template Directory"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"backr",
+				"background-color"
+			],
+			[
+				"seco",
+				"secondaryColor"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"bacoi",
+				"background-position"
+			],
+			[
+				"fons",
+				"font-size"
+			],
+			[
+				"spa",
+				"space-around"
+			],
+			[
+				"p",
+				"primaryColor"
+			],
+			[
+				"bacc",
+				"background-color"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"jcs",
+				"jc-sb\tjustify-content: space-between;"
+			],
+			[
+				"td",
+				"td-n\ttext-decoration: none;"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"pri",
+				"primaryColor"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"backc",
+				"background-color"
+			],
+			[
+				"baco",
+				"background-color"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"tog",
+				"toggleClass\t.toggleClass()"
+			],
+			[
+				"fsi",
+				"fs-i\tfont-style: italic;"
+			],
+			[
+				"tdn",
+				"td-n\ttext-decoration: none;"
+			],
+			[
+				"secondar",
+				"secondaryFont"
+			],
+			[
+				"sec",
+				"secondaryFont"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fs",
+				"font-style"
+			],
+			[
+				"chs",
+				"comm-section-header\tComment - Section header comment"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"csh",
+				"comm-section-header\tComment - Section header comment"
+			],
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"soc",
+				"secondaryFont"
+			],
+			[
+				"tal",
+				"tal-l\ttext-align-last: left;"
+			],
+			[
+				"tt",
+				"tt-u\ttext-transform: uppercase;"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"li",
+				"lightColor"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"so",
+				"solid"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"b",
+				"bold\tfont-weight"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"Cos",
+				"cosmetic-injectables"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"comm-se",
+				"comm-section-header\tComment - Section header comment"
+			],
+			[
+				"comm",
+				"comm-section\tComment - Full section comment"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"commse",
+				"comm-section-header\tComment - Section header comment"
+			],
+			[
+				"em",
+				"employee"
+			],
+			[
+				"cs",
+				"css\t.css() - single"
+			],
+			[
+				"windo",
+				"windowHash"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"dis",
+				"distance"
+			],
+			[
+				"dus",
+				"distance_results"
+			],
+			[
+				"the",
+				"thedestination"
+			],
+			[
+				"dis_",
+				"distance_value"
+			],
+			[
+				"des",
+				"destination"
+			],
+			[
+				"dista",
+				"distance_text"
+			],
+			[
+				"de",
+				"destinationB"
+			],
+			[
+				"dura",
+				"duration_text"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"after",
+				"after-img"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"to",
+				"toggleClass"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"ma",
+				"maw\tmax-width"
+			],
+			[
+				"tea",
+				"text-align"
+			],
+			[
+				"bef",
+				"before-img"
+			],
+			[
+				"po",
+				"pos:a\tposition:absolute"
+			],
+			[
+				"is_ar",
+				"is_archive"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"PAD",
+				"padding-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fonse",
+				"font-size"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"fw",
+				"fw:b\tfont-weight:bold"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ted",
+				"text-decoration"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"pro",
+				"primaryColor"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"Prima",
+				"primaryColor"
+			],
+			[
+				"prim",
+				"primaryColor"
+			],
+			[
+				"primary",
+				"primaryFont"
+			],
+			[
+				"space",
+				"space-around"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"prima",
+				"primaryColor"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"pr",
+				"primaryColor"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"ligh",
+				"lightColor"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"model",
+				"model_tag"
+			],
+			[
+				"mode",
+				"model_tag"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"tde",
+				"text-decoration"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"lef",
+				"left"
+			],
+			[
+				"me",
+				"menu-buttons"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"s",
+				"span"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"count",
+				"count3"
+			],
+			[
+				"rb",
+				"rgba"
+			],
+			[
+				"fle",
+				"flex"
+			],
+			[
+				"hover",
+				"hover-menu"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sass/_common.scss",
+			"settings":
+			{
+				"buffer_size": 4504,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 4114,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_front.scss",
+			"settings":
+			{
+				"buffer_size": 4288,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 6021,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 4268,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"wra",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"g",
+				"Reg Replace: GDocs Cleanup"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"gd",
+				"Reg Replace: GDocs Cleanup"
+			],
+			[
+				"gdo",
+				"Reg Replace: GDocs Cleanup"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"gdoc",
+				"Reg Replace: GDocs Cleanup"
+			],
+			[
+				"REI",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ra",
+				"Set Syntax: SQL (Rails)"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pacc",
+				"Package Control: List Packages"
+			],
+			[
+				"god",
+				"Reg Replace: GDocs Cleanup"
+			],
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sft",
+				"SFTP: Show Panel"
+			],
+			[
+				"sy",
+				"Set Syntax: CSS"
+			],
+			[
+				"hg",
+				"Set Syntax: HTML (Erlang)"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"s",
+				"Set Syntax: CSS"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"d",
+				"Set Syntax: D"
+			],
+			[
+				"hm",
+				"Set Syntax: HTML"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"HMA",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"gma",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"gda",
+				"Reg Replace: GDocs Cleanup"
+			],
+			[
+				"WRA",
+				"Word Wrap: Toggle"
+			],
+			[
+				"htl",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set syntax: css",
+				"Set Syntax: CSS"
+			],
+			[
+				"go",
+				"Reg Replace: GDocs Cleanup"
+			],
+			[
+				"REG",
+				"Reg Replace: GDocs Cleanup"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			],
+			[
+				"sytax:h",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"sntax ht",
+				"Set Syntax: HTML (Tcl)"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 195.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/websites/dentalstudiosf/wp-content/themes/rm-dentalstudiosf"
+	],
+	"file_history":
+	[
+		"/Volumes/websites/drlayt/.htaccess",
+		"/Volumes/websites/drcoberly/wp-config.php",
+		"/Volumes/websites/drlayt/wp-config.php",
+		"/Volumes/staging/sandiegohousemusic/.htaccess",
+		"/Users/misha/Library/Caches/Transmit/093315CE-2AF4-44E2-917B-B4692ED58D9E/austinmohssurgery.com/httpdocs/wp-content/themes/austinmohs/functions.php",
+		"/Users/misha/Library/Caches/Transmit/D35603B8-5B95-4B2C-B3FF-BD9EFAE7F75E/austinmohssurgery.com/httpdocs/wp-content/themes/austinmohs/header.php",
+		"/Volumes/websites/drcoberly2/wp-config.php",
+		"/Volumes/websites/drcoberly/.htaccess",
+		"/Volumes/staging/sandiegohousemusic/wp-config.php",
+		"/Users/misha/Local Sites/drcoberly/app/public/wp-content/themes/porto-child/functions.php",
+		"/Users/misha/Local Sites/drcoberly/app/public/wp-content/themes/porto-child/header.php",
+		"/Users/misha/Desktop/santabarbaraplasticsurgery.WordPress.2019-05-23.xml",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/js/scripts.js",
+		"/Users/misha/Documents/builds/43. designerforsmiles/designerforsmiles.sublime-workspace",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/inc/shortcodes/bnacase.inc.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/node_modules/js-base64/base64.js",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/assets/sass/_common.scss",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/.eslintignore",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/.eslintrc.js",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/.gitignore",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/gulpfile.babel.js",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/icon-calendar.png",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/package-lock.json",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/package.json",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/page-landing.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/page-testimonials.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/style.css.map",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/style.min.css",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/wpgulp.config.js",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/.editorconfig",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/404.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/archive.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/category.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/footer.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/front.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/functions.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/header.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/index.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/page-contact.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/page.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/popup.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/screenshot.png",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/sidebar.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/single.php",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/style.css",
+		"/Users/misha/Documents/builds/43. designerforsmiles/rm-designerforsmiles alias",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/sass/style.scss",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/assets/sass/_variables.scss",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/sass/_variables.scss",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/rm-designerforsmiles/sass/helpers/_rm_fonts.scss",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/gulp-dev/Gulpfile.js",
+		"/Users/misha/Documents/localbuilds/desingerforsmiles/app/public/wp-content/themes/gulp-dev/package.json",
+		"/Users/misha/Library/Caches/Transmit/F3C29C49-F252-486C-A11E-CFBBB1F449B4/drbayati.com/httpdocs/wp-content/themes/rm-bayati/footer.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/footer.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/node_modules/wrappy/wrappy.js",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/_content.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/_header.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/_common.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/_front.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/_sidebar.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/_blog.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/js/scripts.js",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/page-contact.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/front.php",
+		"/Users/misha/Library/Caches/Transmit/53758733-6030-4028-AD6B-8BBF0E00BDBC/72.47.216.11/httpdocs/wp-content/themes/rm-cass/js/scripts.js",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/_footer.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/_gallery.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/single.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/inc/components/crumb.inc.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/header.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/_menu_touch.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/_menu_hover.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sidebar.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/index.php",
+		"/Users/misha/Library/Caches/Transmit/9F3299E5-ADA2-44AD-BE34-7078BFEB9B98/72.47.216.18/var/www/vhosts/rhinoplasty-usa.com/httpdocs/wp-content/themes/rm-rhinoplasty-usa/rmgallery-templates/rmg_category-parent.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/inc/partials/jumplinks.php",
+		"/Users/misha/Library/Caches/Transmit/B8437C5F-CEFC-407A-AE82-7D377DA08080/72.47.216.18/var/www/vhosts/rhinoplasty-usa.com/httpdocs/wp-config.php",
+		"/Users/misha/Library/Caches/Transmit/3CD91B39-E93E-4F54-B0C6-676CA2D249BE/72.47.216.18/var/www/vhosts/rhinoplasty-usa.com/httpdocs/wp-content/themes/rm-rhinoplasty-usa/inc/components/header-image.inc.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/archive.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/category.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/_flexible.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/js/rm-menu.js",
+		"/Volumes/websites/sbplasticsurgery/wp-config.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/style.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/inc/shortcodes/feature.inc.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/inc/partials/multi-column.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/_base.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/_variables.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/inc/shortcodes/bnacase.inc.php",
+		"/Users/misha/Desktop/puretabs-master/index.html",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/functions.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/inc/partials/split-section.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/inc/partials/feature.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/inc/partials/basic.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/inc/components/header-image.inc.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/node_modules/is-buffer/test/basic.js",
+		"/Users/misha/Library/Caches/Transmit/F8757F1F-B1B0-4F03-919F-2EF1D14874BB/72.47.216.11/var/www/vhosts/drbottger.com/httpdocs/wp-content/themes/rm-drbottger/style.css",
+		"/Users/misha/Library/Application Support/Sublime Text 3/Packages/User/reg_replace_rules.sublime-settings",
+		"/Users/misha/Library/Application Support/Sublime Text 3/Packages/User/Default.sublime-commands",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/_contact.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/sass/helpers/_rm_contact.scss",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/rmgallery-templates/rmg_archive.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/rmgallery-templates/rmg_category-child.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/rmgallery-templates/rmg_category-parent.php",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/rmgallery-templates/rmg_single-case.php",
+		"/Users/misha/Library/Caches/Transmit/E6E94873-B061-4E3D-9597-7B8B8DF9F13A/72.47.216.18/var/www/vhosts/radiancemedicalspa.com/httpdocs/.htaccess",
+		"/Users/misha/Library/Caches/Transmit/B3E1BFAD-C4AF-4883-8898-4765F78A4A62/72.47.216.18/var/www/vhosts/radiancemedicalspa.com/httpdocs/.htaccess",
+		"/Users/misha/Library/Caches/Transmit/F8171F3B-AD79-4049-A548-7383ADD776E9/72.47.216.14/var/www/vhosts/lcmedspa.com/httpdocs/.htaccess",
+		"/Users/misha/Library/Caches/Transmit/E7975FDA-783F-4A3F-B3FE-F2179C33E368/72.47.216.11/var/www/vhosts/coolsculptingrichmond.com/httpdocs/wp-config.php",
+		"/Users/misha/Library/Caches/Transmit/20DAD1BE-DCB5-43FB-A8B1-914A0499A7F7/72.47.216.18/var/www/vhosts/richmondcoolsculpt.com/httpdocs/index.html",
+		"/Users/misha/Library/Caches/Transmit/AC2FB7AD-1BAE-47EC-9F30-7EC89D95B9D8/72.47.216.18/var/www/vhosts/richmondcoolsculpt.com/httpdocs/index.php",
+		"/Users/misha/Library/Caches/Transmit/3AF99BB7-AEF2-45BC-9572-4E37D3E4C9FA/72.47.216.15/var/www/vhosts/midlandhandsurgery.com/httpdocs/wp-config.php",
+		"/Users/misha/Library/Caches/Transmit/C62F1871-6F9B-4442-A624-D4C2BEFE6035/72.47.216.15/var/www/vhosts/midlandhandsurgery.com/httpdocs/.htaccess",
+		"/Volumes/websites/sbplasticsurgery/wp-content/themes/rm-sbplasticsurgery/404.php",
+		"/Users/misha/Documents/plugins/rmreview/rmreview.php",
+		"/Users/misha/Library/Caches/Transmit/B98FD55A-C35A-4BC7-9B89-E8B39C7356FD/72.47.216.18/var/www/vhosts/sacramentoplastics.com/httpdocs/.htaccess",
+		"/Users/misha/Documents/ code snippets/emojis.html",
+		"/Users/misha/Documents/ code snippets/to see all tables.php",
+		"/Users/misha/Library/Caches/Transmit/7145BC5F-5B22-49F8-BB82-E02CED0DF419/4straightteeth.com/httpdocs/wp-content/themes/4st/style.css",
+		"/Users/misha/Documents/ code snippets/lazyloading.php",
+		"/Users/misha/Documents/ code snippets/.htaccess",
+		"/Users/misha/Library/Caches/Transmit/A955F31D-E609-493A-9C69-C5DFBDFA464E/drkosdon.com/httpdocs/content/themes/drkosdon/front.php",
+		"/Users/misha/Documents/ code snippets/Instagram-Feed.php",
+		"/Users/misha/Documents/ code snippets/minicss.php",
+		"/Users/misha/Desktop/transfer-out",
+		"/Volumes/websites/transfer-outs/memphissmiledesigns/wp-config.php",
+		"/Users/misha/Library/Caches/Transmit/151FB2CE-653A-4A9D-AAD4-B03D05C8AB03/toddmabrydds.com/httpdocs/wp-content/themes/toddmabry-retro/header.php",
+		"/Users/misha/Library/Caches/Transmit/A38EFB31-9F0C-47A3-BC99-2A2E615924B1/toddmabrydds.com/httpdocs/wp-content/themes/toddmabry-retro/functions.php"
+	],
+	"find":
+	{
+		"height": 74.0
+	},
+	"find_in_files":
+	{
+		"height": 176.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tablet",
+			"40"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sass/_common.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1269,
+								1269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1718.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								837,
+								837
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "sass/_front.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1483,
+								1483
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1805.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sass/_footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1579,
+								1579
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1884.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3638,
+								3638
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3196.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 73.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.524278510421,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 150.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 142.0
+	},
+	"pinned_build_system": "",
+	"project": "dentalstudiosf.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"foot",
+				"sass/_footer.scss"
+			],
+			[
+				"scris",
+				"js/scripts.js"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"fron",
+				"sass/_front.scss"
+			],
+			[
+				"commo",
+				"sass/_common.scss"
+			],
+			[
+				"footer",
+				"sass/_footer.scss"
+			],
+			[
+				"side",
+				"assets/sass/_sidebar.scss"
+			],
+			[
+				"varias",
+				"assets/sass/_variables.scss"
+			],
+			[
+				"content",
+				"assets/sass/_content.scss"
+			],
+			[
+				"heads",
+				"assets/sass/_header.scss"
+			],
+			[
+				"rm",
+				"assets/sass/helpers/_rm_contact.scss"
+			],
+			[
+				"bna",
+				"inc/shortcodes/bnacasecustom.inc.php"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"bass",
+				"assets/sass/_base.scss"
+			],
+			[
+				"base",
+				"node_modules/js-base64/base64.js"
+			],
+			[
+				"variab",
+				"assets/sass/_variables.scss"
+			],
+			[
+				"touc",
+				"assets/sass/_menu_touch.scss"
+			],
+			[
+				"hover",
+				"assets/sass/_menu_hover.scss"
+			],
+			[
+				"front",
+				"assets/sass/_front.scss"
+			],
+			[
+				"commos",
+				"assets/sass/_common.scss"
+			],
+			[
+				"rm_con",
+				"assets/sass/helpers/_rm_contact.scss"
+			],
+			[
+				"bassc",
+				"assets/sass/_base.scss"
+			],
+			[
+				"varia",
+				"sass/_variables.scss"
+			],
+			[
+				"hea",
+				"header.php"
+			],
+			[
+				"foo",
+				"sass/_footer.scss"
+			],
+			[
+				"gall",
+				"sass/_gallery.scss"
+			],
+			[
+				"sing",
+				"single.php"
+			],
+			[
+				"wra",
+				"node_modules/wrappy/wrappy.js"
+			],
+			[
+				"rmcon",
+				"sass/helpers/_rm_contact.scss"
+			],
+			[
+				"singe",
+				"single.php"
+			],
+			[
+				"blog",
+				"sass/_blog.scss"
+			],
+			[
+				"flex",
+				"sass/_flexible.scss"
+			],
+			[
+				"scri",
+				"js/scripts.js"
+			],
+			[
+				"page-c",
+				"page-contact.php"
+			],
+			[
+				"crum",
+				"inc/components/crumb.inc.php"
+			],
+			[
+				"cate",
+				"category.php"
+			],
+			[
+				"archi",
+				"archive.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"single",
+				"single.php"
+			],
+			[
+				"GALLERY",
+				"sass/_gallery.scss"
+			],
+			[
+				"HEAS",
+				"sass/_header.scss"
+			],
+			[
+				"HEAD",
+				"header.php"
+			],
+			[
+				"touch",
+				"sass/_menu_touch.scss"
+			],
+			[
+				"menu",
+				"js/rm-menu.js"
+			],
+			[
+				"vari",
+				"sass/_variables.scss"
+			],
+			[
+				"he",
+				"sass/_header.scss"
+			],
+			[
+				"sty",
+				"sass/style.scss"
+			],
+			[
+				"basic",
+				"node_modules/is-buffer/test/basic.js"
+			],
+			[
+				"conte",
+				"sass/_content.scss"
+			],
+			[
+				"footers",
+				"sass/_footer.scss"
+			],
+			[
+				"conta",
+				"sass/helpers/_rm_contact.scss"
+			],
+			[
+				"sid",
+				"sass/_sidebar.scss"
+			],
+			[
+				"gallery",
+				"sass/_gallery.scss"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"var",
+				"sass/_variables.scss"
+			],
+			[
+				"404",
+				"404.php"
+			],
+			[
+				"header",
+				"inc/components/header-image.inc.php"
+			],
+			[
+				"emo",
+				"emojis.html"
+			],
+			[
+				"insta",
+				"Instagram-Feed.php"
+			],
+			[
+				"e",
+				"emojis.html"
+			],
+			[
+				"lazy",
+				"lazyloading.php"
+			],
+			[
+				"ht",
+				".htaccess"
+			],
+			[
+				"laz",
+				"lazyloading.php"
+			],
+			[
+				"mini",
+				"minicss.php"
+			],
+			[
+				"ifram",
+				"responsive-iframe.html"
+			],
+			[
+				"css",
+				"css-only-modal.html"
+			],
+			[
+				"sche",
+				"schema-header.php"
+			],
+			[
+				"js",
+				"json-ld.php"
+			],
+			[
+				"i",
+				"Instagram-Feed.php"
+			],
+			[
+				"afc",
+				"key-acf.html"
+			],
+			[
+				"mimi",
+				"html-mini.php"
+			],
+			[
+				"iframe",
+				"responsive-iframe.html"
+			],
+			[
+				"site",
+				"Site Speed.php"
+			],
+			[
+				"sped",
+				"Site Speed.php"
+			],
+			[
+				"tra",
+				"tracktoubound.html"
+			],
+			[
+				"spee",
+				"Site Speed.php"
+			],
+			[
+				"track",
+				"tracktoubound.html"
+			],
+			[
+				"in",
+				"Instagram-Feed.php"
+			],
+			[
+				"acf",
+				"key-acf.html"
+			],
+			[
+				"yo",
+				"kay-yottie.html"
+			],
+			[
+				"ifra",
+				"responsive-iframe.html"
+			],
+			[
+				"ac",
+				"key-acf.html"
+			],
+			[
+				"trac",
+				"tracktoubound.html"
+			],
+			[
+				"htac",
+				".htaccess"
+			],
+			[
+				"ope",
+				"open-graph-for0facebook.php"
+			],
+			[
+				"open",
+				"open-graph-for0facebook.php"
+			],
+			[
+				"sea",
+				" code snippets/seaforms-boilerplate.css"
+			],
+			[
+				"ema",
+				"thank-you-email.html"
+			],
+			[
+				"email",
+				"thank-you-email.html"
+			],
+			[
+				"ra",
+				"tracktoubound.html"
+			],
+			[
+				"short",
+				"shortcode-example.inc.php"
+			],
+			[
+				"shor",
+				"shortcode-example.inc.php"
+			],
+			[
+				"resp",
+				"responsive-iframe.html"
+			],
+			[
+				"revi",
+				"Reviews Schema/reviews-schema.php"
+			],
+			[
+				"hard",
+				"harden-wordpress.php"
+			],
+			[
+				"exri",
+				"ExpiresbyType-SiteSpeed.html"
+			],
+			[
+				"j",
+				"json-ld.php"
+			],
+			[
+				"rack",
+				"tracktoubound.html"
+			],
+			[
+				"json",
+				"json-ld.php"
+			],
+			[
+				"yott",
+				"kay-yottie.html"
+			],
+			[
+				"ha",
+				"header-framework.php"
+			],
+			[
+				"sc",
+				"schema-header.php"
+			],
+			[
+				"og",
+				"open-graph-for0facebook.php"
+			],
+			[
+				"ld",
+				"json-ld.php"
+			],
+			[
+				"mai",
+				"seaforms-mailchimp.html"
+			],
+			[
+				"mailchi",
+				"seaforms-mailchimp.html"
+			],
+			[
+				"heade",
+				"header.php"
+			],
+			[
+				"sig",
+				"rmgallery-templates/rmg_single-case.php"
+			],
+			[
+				"co",
+				"sass/_content.scss"
+			],
+			[
+				"contac",
+				"sass/_contact.scss"
+			],
+			[
+				"cont",
+				"sass/_content.scss"
+			],
+			[
+				"contact",
+				"sass/helpers/_rm_contact.scss"
+			],
+			[
+				"foote",
+				"footer.php"
+			],
+			[
+				"common",
+				"sass/_common.scss"
+			],
+			[
+				"galle",
+				"sass/_gallery.scss"
+			],
+			[
+				"gla",
+				"sass/_gallery.scss"
+			],
+			[
+				"ga",
+				"sass/_gallery.scss"
+			],
+			[
+				"gaer",
+				"sass/_gallery.scss"
+			],
+			[
+				"doso",
+				"sass/_dosomething.scss"
+			],
+			[
+				"fr",
+				"front.php"
+			],
+			[
+				"comm",
+				"sass/_common.scss"
+			],
+			[
+				"f",
+				"front.php"
+			],
+			[
+				"gal",
+				"sass/_gallery.scss"
+			],
+			[
+				"sign",
+				"rmgallery-templates/rmg_single-case.php"
+			],
+			[
+				"ut",
+				"sass/utils/_utility.scss"
+			],
+			[
+				"frn",
+				"front.php"
+			],
+			[
+				"scr",
+				"js/scripts.js"
+			],
+			[
+				"",
+				"sass/helpers/_rm_contact.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sb",
+				"~/Documents/builds/42. sbplasticsurgery/sbplasticsuregery.sublime-project"
+			],
+			[
+				"sni",
+				"~/Documents/ code snippets/snippets.sublime-project"
+			],
+			[
+				"s",
+				"~/Documents/ code snippets/snippets.sublime-project"
+			],
+			[
+				"",
+				"~/Documents/builds/40. drbottger/drbottger.sublime-project"
+			],
+			[
+				"drb",
+				"~/Documents/builds/40. drbottger/drbottger.sublime-project"
+			],
+			[
+				"po",
+				"~/Documents/builds/41. polacekplasticsurgery/polacekplastisurgery.sublime-project"
+			],
+			[
+				"aeas",
+				"~/Documents/builds/38. aestheticinstitutechicago/aestheticinstitutechicago.sublime-workspace"
+			],
+			[
+				"pol",
+				"~/Documents/builds/41. polacekplasticsurgery/polacekplastisurgery.sublime-project"
+			],
+			[
+				"sa",
+				"~/Documents/builds/sandiegohousemusic.sublime-workspace"
+			],
+			[
+				"de",
+				"~/Documents/builds/29. dermlasersurgery/dermlasersurgery.sublime-project"
+			],
+			[
+				"drar",
+				"~/Documents/builds/12. drarunnarang/drarunnarang.sublime-project"
+			],
+			[
+				"dr",
+				"~/Documents/builds/40. drbottger/drbottger.sublime-project"
+			],
+			[
+				"rhi",
+				"~/Documents/builds/39. rhinoplasty-usa/rhinoplasty-usa.sublime-project"
+			],
+			[
+				"san",
+				"~/Documents/builds/sandiegohousemusic.sublime-workspace"
+			],
+			[
+				"der",
+				"~/Documents/builds/29. dermlasersurgery/dermlasersurgery.sublime-project"
+			],
+			[
+				"aes",
+				"~/Documents/builds/38. aestheticinstitutechicago/aestheticinstitutechicago.sublime-workspace"
+			],
+			[
+				"ae",
+				"~/Documents/builds/38. aestheticinstitutechicago/aestheticinstitutechicago.sublime-workspace"
+			],
+			[
+				"as",
+				"~/Documents/builds/38. aestheticinstitutechicago/aestheticinstitutechicago.sublime-workspace"
+			],
+			[
+				"sd",
+				"~/Documents/builds/sandiegohousemusic.sublime-workspace"
+			],
+			[
+				"dana",
+				"~/Documents/builds/34. danalanding/danalanding.sublime-project"
+			],
+			[
+				"eas",
+				"~/Documents/builds/37. eastcountybaitandtackle/eastcountybaitandtackle.sublime-workspace"
+			],
+			[
+				"blac",
+				"~/Documents/builds/35. blackjackcharters/blackjackcharters.sublime-project"
+			],
+			[
+				"da",
+				"~/Documents/builds/34. danalanding/danalanding.sublime-project"
+			],
+			[
+				"id",
+				"~/Documents/builds/32. idspringfield/idspringfield.sublime-project"
+			],
+			[
+				"eye",
+				"~/Documents/builds/26. eyeliddocs/eyeliddocs.sublime-project"
+			],
+			[
+				"ids",
+				"~/Documents/builds/32. idspringfield/idspringfield.sublime-project"
+			],
+			[
+				"mid",
+				"~/Documents/builds/33. midlandhairtransplant/midlandhairtransplant.sublime-project"
+			],
+			[
+				"reg",
+				"~/Documents/builds/30. regionalhandsurgery/regionalhandsurgery.sublime-project"
+			],
+			[
+				"sha",
+				"~/Documents/builds/31. drshadfar/drshadfar.sublime-project"
+			],
+			[
+				"drs",
+				"~/Documents/builds/31. drshadfar/drshadfar.sublime-project"
+			],
+			[
+				"drsh",
+				"~/Documents/builds/31. drshadfar/drshadfar.sublime-project"
+			],
+			[
+				"re",
+				"~/Documents/builds/30. regionalhandsurgery/regionalhandsurgery.sublime-project"
+			],
+			[
+				"rm",
+				"~/Documents/plugins/_plugin_dev/rm-review.sublime-project"
+			],
+			[
+				"pre",
+				"~/Documents/builds/21. premierplasticsurgeryfl/premierplasticsurgeryfl.sublime-project"
+			],
+			[
+				"mas",
+				"~/Documents/builds/00-rm-basetheme/masterbase.sublime-project"
+			],
+			[
+				"base",
+				"~/Documents/builds/00-rm-basetheme/rm-basetheme.sublime-project"
+			],
+			[
+				"koi",
+				"~/Documents/builds/27. koisdentistry/koisdentistry.sublime-workspace"
+			],
+			[
+				"kois",
+				"~/Documents/builds/27. koisdentistry/koisdentistry.sublime-workspace"
+			],
+			[
+				"fa",
+				"~/Documents/builds/28. fatdisorders/fatdisorders.sublime-project"
+			],
+			[
+				"fat",
+				"~/Documents/builds/28. fatdisorders/fatdisorders.sublime-project"
+			],
+			[
+				"gdo",
+				"~/Documents/builds/12. drarunnarang/drarunnarang.sublime-project"
+			],
+			[
+				"plas",
+				"~/Documents/builds/7. plasticsurgerycenter - full site/rm-plasticsurgerycenter.sublime-workspace"
+			],
+			[
+				"oi",
+				"~/Documents/builds/27. koisdentistry/koisdentistry.sublime-workspace"
+			],
+			[
+				"ko",
+				"~/Documents/builds/27. koisdentistry/koisdentistry.sublime-workspace"
+			],
+			[
+				"nor",
+				"~/Documents/builds/25. northcarolinabreastimplantcenter/northcarolinabreastimplantcenter.sublime-project"
+			],
+			[
+				"la",
+				"~/Documents/builds/ smaller projects/lasikeyeorlando.sublime-project"
+			],
+			[
+				"LASI",
+				"~/Documents/builds/ smaller projects/lasikeyeorlando.sublime-project"
+			],
+			[
+				"no",
+				"~/Documents/builds/25. northcarolinabreastimplantcenter/northcarolinabreastimplantcenter.sublime-project"
+			],
+			[
+				"den",
+				"~/Documents/builds/24. denturerepairstudio/denturerepairstudio.sublime-project"
+			],
+			[
+				"cope",
+				"~/Documents/builds/23. copelandcosmeticsurgery/copelandcosmeticsurgery.sublime-workspace"
+			],
+			[
+				"co",
+				"~/Documents/builds/23. copelandcosmeticsurgery/copelandcosmeticsurgery.sublime-workspace"
+			],
+			[
+				"a",
+				"~/Documents/builds/18. allstarortho/allstarortho.sublime-project"
+			],
+			[
+				"sac",
+				"~/Documents/builds/22. sacramentoplastics/sacramentoplastics.sublime-workspace"
+			],
+			[
+				"all",
+				"~/Documents/builds/18. allstarortho/allstarortho.sublime-project"
+			],
+			[
+				"html",
+				"~/Documents/GitHub/the-auto-update/the-auto-update.sublime-workspace"
+			],
+			[
+				"ba",
+				"~/Documents/builds/00-rm-basetheme/rm-basetheme.sublime-project"
+			],
+			[
+				"the",
+				"~/Documents/builds/ smaller projects/the-auto-update.sublime-project"
+			],
+			[
+				"bea",
+				"~/Documents/builds/17. beautifulsmilesnj/beautifulsmilesnj.sublime-workspace"
+			],
+			[
+				"bas",
+				"~/Documents/builds/00-rm-basetheme/rm-basetheme.sublime-project"
+			],
+			[
+				"te",
+				"~/Documents/builds/ smaller projects/the-auto-update.sublime-project"
+			],
+			[
+				"z",
+				"~/Documents/builds/9. zollmansurgery/zollman.sublime-project"
+			],
+			[
+				"kri",
+				"~/Documents/builds/16. drkristenyee/drkristenyee.sublime-workspace"
+			],
+			[
+				"sea",
+				"~/Documents/builds/14. seattlecosmedicskincare/seattlecosmedicskincare.sublime-project"
+			],
+			[
+				"drk",
+				"~/Documents/builds/16. drkristenyee/drkristenyee.sublime-workspace"
+			],
+			[
+				"del",
+				"~/Documents/builds/15. delmarvadentalservices/delmarvadentalservices.sublime-project"
+			],
+			[
+				"sead",
+				"~/Documents/builds/14. seattlecosmedicskincare/seattlecosmedicskincare.sublime-project"
+			],
+			[
+				"misha",
+				"~/Documents/builds/0.) misha sandbox/rm-misha.sublime-project"
+			],
+			[
+				"pl",
+				"~/Documents/builds/7. plasticsurgerycenter - full site/rm-plasticsurgerycenter.sublime-project"
+			],
+			[
+				"zo",
+				"~/Documents/builds/9. zollmansurgery/zollman.sublime-project"
+			],
+			[
+				"o",
+				"~/Documents/builds/9. zollmansurgery/zollman.sublime-project"
+			],
+			[
+				"sc",
+				"~/Documents/builds/5. schweitzerdental - full site/rm-schweitzerdental.sublime-project"
+			],
+			[
+				"misba",
+				"~/Documents/builds/0.) misha sandbox/rm-misha.sublime-project"
+			],
+			[
+				"sch",
+				"~/Documents/builds/5. schweitzerdental - full site/rm-schweitzerdental.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

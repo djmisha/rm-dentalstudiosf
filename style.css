@@ -3808,12 +3808,24 @@ a.page-numbers.current,
   line-height: 25px;
   text-transform: none;
   font-family: "Open Sans", sans-serif;
-  padding: 15px 60px;
+  padding: 15px 40px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   background: transparent;
   border: 2px solid #3d9be9;
   text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+  .button,
+  .buttons a,
+  .submit-btn,
+  .next-prev a,
+  a.page-numbers,
+  a.page-numbers.current,
+  .after-review-sprinkle .button {
+    padding: 15px 60px;
+  }
 }
 
 .button:hover,
@@ -3830,10 +3842,6 @@ a.page-numbers.current:hover,
 
 .after-review-sprinkle .button:hover {
   color: #e1ab4c;
-}
-
-.submit-btn:hover {
-  color: #ffffff;
 }
 
 .disclaimer {
@@ -4576,7 +4584,7 @@ main,
 }
 
 .nav-bar-phones a {
-  width: 80px;
+  width: 60px;
   height: 60px;
   text-decoration: none;
   color: #000;
@@ -5411,6 +5419,11 @@ aside li {
 
 .upper-footer form .type-submitbutton {
   margin: 0 auto;
+  background: #3d9be9;
+}
+
+.upper-footer form .type-submitbutton input {
+  color: #ffffff !important;
 }
 
 .footer-elavate .elevate-bg {
@@ -5434,8 +5447,8 @@ aside li {
 
 @media only screen and (min-width: 768px) {
   .footer-elavate .elevate-quote {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 
@@ -5457,7 +5470,7 @@ aside li {
   position: relative;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1080px) {
   .footer-elavate p {
     padding-left: 0;
     padding-right: 0;
@@ -5477,7 +5490,7 @@ aside li {
   background-repeat: no-repeat;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1080px) {
   .footer-elavate p:before {
     top: 10px;
     left: -26px;
@@ -5498,7 +5511,7 @@ aside li {
   bottom: 0px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1080px) {
   .footer-elavate p:after {
     bottom: 10px;
     right: -26px;
@@ -6060,7 +6073,7 @@ aside li {
   .welcome-special {
     padding-left: 40px;
     padding-right: 40px;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 30px;
   }
 }
@@ -6150,6 +6163,16 @@ aside li {
   }
 }
 
+.home-doctor h3 {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-doctor h3 {
+    font-size: 30px;
+  }
+}
+
 .home-doctor .button {
   margin-top: 40px;
   display: block;
@@ -6182,13 +6205,14 @@ aside li {
 }
 
 .home-featured-procedures li {
-  text-align: left;
+  text-align: center;
   width: 100%;
   margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
   .home-featured-procedures li {
+    text-align: left;
     width: 44%;
   }
 }
@@ -6208,9 +6232,16 @@ aside li {
   width: 106px;
   height: 106px;
   background-repeat: no-repeat;
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-featured-procedures .featured-icon {
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 100px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
