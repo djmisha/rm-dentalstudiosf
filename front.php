@@ -9,7 +9,7 @@
 		<div class="welcome-cta">
 			<h2><?php the_field('welcome_headline'); ?></h2>
 			<h3><?php the_field('welcome_subheadline'); ?></h3>
-			<div class="button" rel="nofollow">Book Online</div>
+			<a href="<?php bloginfo('url'); ?>/contact-us/" class="button" rel="nofollow">Book Online</a>
 		</div>
 	</div>
 	<div class="welcome-special">
@@ -30,7 +30,7 @@
 		<ul>
 			<?php while(have_rows('featured_procedures')): the_row(); ?>
 				<li>
-					<a href="<?php the_sub_field('procedure_link'); ?>">
+					<a href="<?php the_sub_field('link'); ?>">
 						<div class="featured-icon" style="background-image: url('<?php the_sub_field('image'); ?>');" >
 						</div>
 						<span><?php the_sub_field('name'); ?></span>

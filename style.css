@@ -5017,6 +5017,7 @@ main,
 .content p a, .content li a {
   text-decoration: underline;
   color: #000;
+  margin-bottom: 10px;
 }
 
 .content p a:hover, .content li a:hover {
@@ -5277,6 +5278,7 @@ aside li {
   margin-bottom: 20px;
   padding-top: 5px;
   text-align: left;
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -5298,8 +5300,10 @@ aside li {
   padding-right: 10px;
   padding-left: 10px;
   position: relative;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 0 !important;
+  line-height: 1em;
 }
 
 @media only screen and (min-width: 768px) {
@@ -5757,8 +5761,9 @@ aside li {
 }
 
 .footer-disclaimer {
-  display: none;
   padding-bottom: 40px;
+  font-size: 12px !important;
+  line-height: 18px !important;
 }
 
 .copyright,
@@ -5821,47 +5826,47 @@ aside li {
 /* ------------------------
 	Forms & Form Elements
 ------------------------ */
-.contact .button {
+.contact-us .button {
   margin-bottom: 10px;
 }
 
-.contact .seaforms .type-checkbox input + label {
+.contact-us .seaforms .type-checkbox input + label {
   display: inline;
 }
 
-.contact .seaforms .type-text > p {
+.contact-us .seaforms .type-text > p {
   color: #000;
   margin: 0;
   margin-bottom: 20px;
 }
 
-.contact h2 {
+.contact-us h2 {
   margin-top: 0;
 }
 
-.contact form .type-singlelinetext input,
-.contact form .type-singlelinetext textarea,
-.contact form .type-textarea input,
-.contact form .type-textarea textarea {
+.contact-us form .type-singlelinetext input,
+.contact-us form .type-singlelinetext textarea,
+.contact-us form .type-textarea input,
+.contact-us form .type-textarea textarea {
   border: 1px solid #d4d4d4 !important;
 }
 
-.contact .content {
+.contact-us .content {
   width: 100% !important;
   padding-right: 0;
 }
 
-.contact.thank-you .content {
+.contact-us.thank-you .content {
   padding-right: 50px;
 }
 
-.contact .contact-content {
+.contact-us .contact-content {
   width: 100%;
   text-align: left;
 }
 
 @media only screen and (min-width: 768px) {
-  .contact .contact-content {
+  .contact-us .contact-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5869,7 +5874,7 @@ aside li {
 }
 
 @media only screen and (min-width: 768px) {
-  .contact .contact-content section {
+  .contact-us .contact-content section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5877,12 +5882,12 @@ aside li {
   }
 }
 
-.contact .contact-form {
+.contact-us .contact-form {
   margin-bottom: 50px;
 }
 
 @media only screen and (min-width: 768px) {
-  .contact .contact-form {
+  .contact-us .contact-form {
     margin-bottom: 0px;
     width: 50%;
     padding-right: 50px;
@@ -5890,36 +5895,36 @@ aside li {
 }
 
 @media only screen and (min-width: 768px) {
-  .contact .office-info {
+  .contact-us .office-info {
     width: 50%;
   }
 }
 
-.contact .the-address {
+.contact-us .the-address {
   margin-bottom: 40px;
 }
 
-.contact .gmaps {
+.contact-us .gmaps {
   width: 100%;
   margin-bottom: 16px;
 }
 
-.contact .gmaps iframe {
+.contact-us .gmaps iframe {
   width: 100%;
   height: 400px;
 }
 
-.contact .address {
+.contact-us .address {
   text-align: left;
 }
 
-.contact .the-hours {
+.contact-us .the-hours {
   display: block;
   margin-top: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-  .contact .the-hours {
+  .contact-us .the-hours {
     margin-top: 0px;
   }
 }
@@ -6598,7 +6603,7 @@ aside li {
   display: inline;
   margin-bottom: 5px;
   display: inline-block;
-  color: #ffffff;
+  color: #3d9be9;
 }
 
 .navigation-links a.page-numbers:hover {

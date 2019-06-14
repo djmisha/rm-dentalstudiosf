@@ -43,6 +43,7 @@
 	/></noscript>
 	<!-- End Facebook Pixel Code -->
 	
+	
 
 </head>
 
@@ -100,8 +101,6 @@
 		<h1 id="smilegallery"><?php //echo $category_title ?> Smile Gallery</h1>
 		<?php elseif(this_is('gallery')): ?>
 		<h1>Smile Gallery</h1>
-		<?php elseif (is_archive() =='newsroom'): ?>
-		<div class="heading-text">Newsroom</div>
 		<?php elseif (is_search()): ?>
 		<div class="heading-text">Search Results</div>
 		<?php elseif (is_home() or is_archive()): ?>

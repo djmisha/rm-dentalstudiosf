@@ -51,8 +51,9 @@
 
 <div id="notice-body">
 	<div id="notice-body-everything">
-		<h2>Notice</h2>
-		<p>The photo gallery page you have requested may contain nudity. If you are at least 18 years of age and wish to continue, please click the 'OK' button now.</p>
-		<div id="buttons"><a href="javascript:parent.jQuery.fancybox.close();" class="popupbtn button">OK</a></div>
+		<?php the_field('special', 'option'); ?>
+		<!-- <h2>Notice</h2> -->
+		<!-- <p>The photo gallery page you have requested may contain nudity. If you are at least 18 years of age and wish to continue, please click the 'OK' button now.</p> -->
+		<!-- <div id="buttons"><a href="javascript:parent.jQuery.fancybox.close();" class="popupbtn button">OK</a></div> -->
 	</div>
 </div>
