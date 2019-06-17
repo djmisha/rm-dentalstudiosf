@@ -532,7 +532,34 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 4114,
+				"buffer_size": 4026,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 7438,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "front.php",
+			"settings":
+			{
+				"buffer_size": 1933,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/components/crumb.inc.php",
+			"settings":
+			{
+				"buffer_size": 4703,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -550,7 +577,7 @@
 			"file": "sass/_footer.scss",
 			"settings":
 			{
-				"buffer_size": 6021,
+				"buffer_size": 6065,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -559,7 +586,43 @@
 			"file": "js/scripts.js",
 			"settings":
 			{
-				"buffer_size": 4268,
+				"buffer_size": 9028,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_content.scss",
+			"settings":
+			{
+				"buffer_size": 3459,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_blog.scss",
+			"settings":
+			{
+				"buffer_size": 3678,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_sidebar.scss",
+			"settings":
+			{
+				"buffer_size": 1459,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_contact.scss",
+			"settings":
+			{
+				"buffer_size": 1944,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -578,7 +641,7 @@
 		[
 			[
 				"wra",
-				"Emmet: Wrap With Abbreviation"
+				"Word Wrap: Toggle"
 			],
 			[
 				"re",
@@ -785,6 +848,7 @@
 	],
 	"file_history":
 	[
+		"/Volumes/websites/dentalstudiosf/wp-content/themes/rm-dentalstudiosf/popup.php",
 		"/Volumes/websites/drlayt/.htaccess",
 		"/Volumes/websites/drcoberly/wp-config.php",
 		"/Volumes/websites/drlayt/wp-config.php",
@@ -911,8 +975,7 @@
 		"/Users/misha/Documents/ code snippets/minicss.php",
 		"/Users/misha/Desktop/transfer-out",
 		"/Volumes/websites/transfer-outs/memphissmiledesigns/wp-config.php",
-		"/Users/misha/Library/Caches/Transmit/151FB2CE-653A-4A9D-AAD4-B03D05C8AB03/toddmabrydds.com/httpdocs/wp-content/themes/toddmabry-retro/header.php",
-		"/Users/misha/Library/Caches/Transmit/A38EFB31-9F0C-47A3-BC99-2A2E615924B1/toddmabrydds.com/httpdocs/wp-content/themes/toddmabry-retro/functions.php"
+		"/Users/misha/Library/Caches/Transmit/151FB2CE-653A-4A9D-AAD4-B03D05C8AB03/toddmabrydds.com/httpdocs/wp-content/themes/toddmabry-retro/header.php"
 	],
 	"find":
 	{
@@ -930,6 +993,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"5px",
 			"tablet",
 			"40"
 		],
@@ -978,7 +1042,7 @@
 						"translation.y": 1718.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -987,15 +1051,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4114,
+						"buffer_size": 4026,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								837,
-								837
+								3661,
+								3661
 							]
 						],
 						"settings":
@@ -1004,20 +1068,102 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1934.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 2,
+					"file": "footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7215,
+								6716
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4915.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "front.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								571,
+								571
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "inc/components/crumb.inc.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4703,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2402,
+								2402
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 1.0,
+						"translation.y": 1624.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "sass/_front.scss",
 					"semi_transient": false,
 					"settings":
@@ -1042,53 +1188,54 @@
 						"translation.y": 1805.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
 					"file": "sass/_footer.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6021,
+						"buffer_size": 6065,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1579,
-								1579
+								5452,
+								5452
 							]
 						],
 						"settings":
 						{
+							"history_list_is_closing": true,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1884.0,
+						"translation.y": 6833.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "js/scripts.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4268,
+						"buffer_size": 9028,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3638,
-								3638
+								3157,
+								3157
 							]
 						],
 						"settings":
@@ -1097,10 +1244,155 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3196.0,
+						"translation.y": 2209.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "sass/_content.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								418,
+								418
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 50.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "sass/_blog.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3538,
+								3538
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4433.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "sass/_sidebar.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								454,
+								454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 91.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "sass/_contact.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9028,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								993,
+								993
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 14.0,
+						"translation.y": 790.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1112,7 +1404,7 @@
 	},
 	"input":
 	{
-		"height": 73.0
+		"height": 74.0
 	},
 	"layout":
 	{
@@ -1123,18 +1415,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.524278510421,
 			1.0
 		],
 		"rows":
@@ -1170,12 +1455,44 @@
 		"selected_items":
 		[
 			[
-				"foot",
-				"sass/_footer.scss"
+				"pop",
+				"popup.php"
+			],
+			[
+				"crum",
+				"inc/components/crumb.inc.php"
 			],
 			[
 				"scris",
 				"js/scripts.js"
+			],
+			[
+				"conta",
+				"sass/_contact.scss"
+			],
+			[
+				"fr",
+				"front.php"
+			],
+			[
+				"side",
+				"sass/_sidebar.scss"
+			],
+			[
+				"blog",
+				"sass/_blog.scss"
+			],
+			[
+				"conte",
+				"sass/_content.scss"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"foot",
+				"sass/_footer.scss"
 			],
 			[
 				"head",
@@ -1188,14 +1505,6 @@
 			[
 				"commo",
 				"sass/_common.scss"
-			],
-			[
-				"footer",
-				"sass/_footer.scss"
-			],
-			[
-				"side",
-				"assets/sass/_sidebar.scss"
 			],
 			[
 				"varias",
@@ -1290,10 +1599,6 @@
 				"single.php"
 			],
 			[
-				"blog",
-				"sass/_blog.scss"
-			],
-			[
 				"flex",
 				"sass/_flexible.scss"
 			],
@@ -1304,10 +1609,6 @@
 			[
 				"page-c",
 				"page-contact.php"
-			],
-			[
-				"crum",
-				"inc/components/crumb.inc.php"
 			],
 			[
 				"cate",
@@ -1362,16 +1663,8 @@
 				"node_modules/is-buffer/test/basic.js"
 			],
 			[
-				"conte",
-				"sass/_content.scss"
-			],
-			[
 				"footers",
 				"sass/_footer.scss"
-			],
-			[
-				"conta",
-				"sass/helpers/_rm_contact.scss"
 			],
 			[
 				"sid",
@@ -1646,10 +1939,6 @@
 				"sass/_dosomething.scss"
 			],
 			[
-				"fr",
-				"front.php"
-			],
-			[
 				"comm",
 				"sass/_common.scss"
 			],
@@ -1676,10 +1965,6 @@
 			[
 				"scr",
 				"js/scripts.js"
-			],
-			[
-				"",
-				"sass/helpers/_rm_contact.scss"
 			]
 		],
 		"width": 0.0

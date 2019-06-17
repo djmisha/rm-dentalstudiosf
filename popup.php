@@ -15,7 +15,7 @@
 		}
 		
 		#notice-body-everything {
-			max-width: 500px;
+			/*max-width: 500px;*/
 			height: auto;
 			padding:20px;
 			display:inline-block;
@@ -31,8 +31,8 @@
 		#notice-body p {
 			margin:0 0 30px 0;
 			color: #0b1d53;
-			font-weight: bold;
-			font-size: 17px;
+			/*font-weight: bold;*/
+			/*font-size: 17px;*/
 		}
 		
 		#notice-body-everything #buttons {
@@ -43,7 +43,7 @@
 
 		#notice-body-everything #buttons a{
 			/*box-shadow:1px 1px 1px 0px #333;*/
-			font-weight: bold;
+			/*font-weight: bold;*/
 			font-size: 20px;
 		}
 	</style>
@@ -51,7 +51,14 @@
 
 <div id="notice-body">
 	<div id="notice-body-everything">
-		<?php the_field('special', 'option'); ?>
+		<div class="popup-up-spliiter">
+			<div class="popup-up-image">
+				<img src="<?php bloginfo('template_directory'); ?>/images/popup.jpg" alt="popup">
+			</div>
+			<div class="popup-up-content">
+				<?php the_field('special', 'option'); ?>
+			</div>
+		</div>
 		<!-- <h2>Notice</h2> -->
 		<!-- <p>The photo gallery page you have requested may contain nudity. If you are at least 18 years of age and wish to continue, please click the 'OK' button now.</p> -->
 		<!-- <div id="buttons"><a href="javascript:parent.jQuery.fancybox.close();" class="popupbtn button">OK</a></div> -->

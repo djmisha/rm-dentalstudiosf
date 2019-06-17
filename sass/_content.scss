@@ -208,3 +208,35 @@ article p ~ h2 {
 	}
 }
 
+
+
+
+.popup-up-spliiter {
+	display: flex;
+	.popup-up-content {
+		@include media($tablet) {
+			padding-left: 40px;
+			max-width: 500px;
+		}
+		em {
+			font-size: 12px;
+		}
+		.type-checkboxgroup {
+			margin-top: 20px;
+			label {
+				margin-bottom: 10px;
+			}
+		}
+	}
+	.popup-up-image {
+		display: none;
+		@include media($tablet) {
+			display: block;
+		}
+	}
+	.type-submitbutton {
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+}

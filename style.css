@@ -4134,7 +4134,7 @@ img.aligncenter,
 .seaforms .type-textarea textarea {
   background: #fff;
   width: 100%;
-  border: 1px solid white;
+  border: 1px solid #dddddd;
   background: #fff;
   font-size: 16px;
   padding: 18px 20px;
@@ -5236,6 +5236,47 @@ article p ~ h2 {
   .wp-block-image img {
     width: auto;
   }
+}
+
+.popup-up-spliiter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  .popup-up-spliiter .popup-up-content {
+    padding-left: 40px;
+    max-width: 500px;
+  }
+}
+
+.popup-up-spliiter .popup-up-content em {
+  font-size: 12px;
+}
+
+.popup-up-spliiter .popup-up-content .type-checkboxgroup {
+  margin-top: 20px;
+}
+
+.popup-up-spliiter .popup-up-content .type-checkboxgroup label {
+  margin-bottom: 10px;
+}
+
+.popup-up-spliiter .popup-up-image {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .popup-up-spliiter .popup-up-image {
+    display: block;
+  }
+}
+
+.popup-up-spliiter .type-submitbutton {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 /* ------------------------
