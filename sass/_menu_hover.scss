@@ -2,7 +2,9 @@ $menuHeight : 40px;
 
 
 /* Start Hover Menu */
-
+nav {
+	width: 100%;
+}
 .hover-menu {
 	// position: absolute;
 	// right: 10px;
@@ -10,7 +12,7 @@ $menuHeight : 40px;
 	.duplicate-item {
 		display: none;
 	}
-	// width: 100%;
+	width: 100%;
 	// border: 1px solid black;
 	// @include font(18px, 1em);
 	display: block;
@@ -18,7 +20,7 @@ $menuHeight : 40px;
 		font-size: 0;
 		text-align: center;
 		display: flex;
-		justify-content: flex-end;
+		justify-content: space-between;
 		align-items: center;
 		height: $menuHeight;
 		> li {
@@ -61,7 +63,7 @@ $menuHeight : 40px;
 			a{	
 				display: block;
 				text-decoration: none;
-				padding: 0px 40px;
+				padding: 0px 20px;
 				transition: .25s ease-in-out background;
 				color: $darkColor; 
 				// height: $menuHeight;
@@ -69,6 +71,10 @@ $menuHeight : 40px;
 				// border: 1px solid red;
 				// font-family: $secondaryFont;
 				// text-transform: uppercase;
+
+				@include media($desktop) {
+					
+				}
 				
 				&:hover {
 					color: $primaryColor;
@@ -76,6 +82,9 @@ $menuHeight : 40px;
 				}
 				&:last-of-type {
 					padding-right: 0;
+				}
+				&:first-of-type {
+					padding-left: 0;
 				}
 			}
 		}
@@ -89,9 +98,9 @@ $menuHeight : 40px;
 	}
 
 	.sub-menu {
-			box-shadow: 0px 0px 5px rgba($darkColor, .5);
+			// box-shadow: 0px 0px 5px rgba($darkColor, .5);
 			background: $lightColor; //set to your own background color
-			// border: 1px solid rgba($lightColor, .2); //for visual purposes.  can remove.
+			border: 1px solid rgba($darkColor, .2); //for visual purposes.  can remove.
 			position: absolute;
 			top: 40px;
 			left: 125px;

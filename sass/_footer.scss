@@ -203,8 +203,11 @@
 		display: inline-block;
 		background: rgba($lightColor,.85);
 		border: 1px solid $primaryColor;
-		padding: 20px 20px;
+		padding: 20px;
 		// width: 100%;
+		@include media(375px) {
+			padding: 40px;
+		}
 
 		@include media($tablet) {
 			padding: 90px 120px;
@@ -298,8 +301,14 @@
 
 .footer-disclaimer {
 	padding-bottom: 40px;
-	font-size: 12px !important;
-	line-height: 18px !important;
+	font-size: 8px !important;
+	line-height: 10px !important;
+
+	@include media($tablet) {
+		font-size: 12px !important;
+		line-height: 18px !important;
+		
+	}
 }
 
 .copyright,

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"max",
+				"max-width"
+			],
+			[
 				"app",
 				"appendTo\t.appendTo()"
 			],
@@ -14,10 +18,6 @@
 			[
 				"se",
 				"secondaryColor"
-			],
-			[
-				"max",
-				"max-height"
 			],
 			[
 				"fxd",
@@ -538,6 +538,24 @@
 			}
 		},
 		{
+			"file": "404.php",
+			"settings":
+			{
+				"buffer_size": 2977,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "popup.php",
+			"settings":
+			{
+				"buffer_size": 1459,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "footer.php",
 			"settings":
 			{
@@ -595,7 +613,7 @@
 			"file": "sass/_content.scss",
 			"settings":
 			{
-				"buffer_size": 3459,
+				"buffer_size": 3897,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -623,6 +641,15 @@
 			"settings":
 			{
 				"buffer_size": 1944,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/helpers/_rm_contact.scss",
+			"settings":
+			{
+				"buffer_size": 5849,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -848,6 +875,7 @@
 	],
 	"file_history":
 	[
+		"/Volumes/websites/dentalstudiosf/wp-content/themes/rm-dentalstudiosf/sass/_content.scss",
 		"/Volumes/websites/dentalstudiosf/wp-content/themes/rm-dentalstudiosf/popup.php",
 		"/Volumes/websites/drlayt/.htaccess",
 		"/Volumes/websites/drcoberly/wp-config.php",
@@ -974,8 +1002,7 @@
 		"/Users/misha/Documents/ code snippets/Instagram-Feed.php",
 		"/Users/misha/Documents/ code snippets/minicss.php",
 		"/Users/misha/Desktop/transfer-out",
-		"/Volumes/websites/transfer-outs/memphissmiledesigns/wp-config.php",
-		"/Users/misha/Library/Caches/Transmit/151FB2CE-653A-4A9D-AAD4-B03D05C8AB03/toddmabrydds.com/httpdocs/wp-content/themes/toddmabry-retro/header.php"
+		"/Volumes/websites/transfer-outs/memphissmiledesigns/wp-config.php"
 	],
 	"find":
 	{
@@ -993,6 +1020,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"white",
 			"5px",
 			"tablet",
 			"40"
@@ -1042,7 +1070,7 @@
 						"translation.y": 1718.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
@@ -1058,8 +1086,8 @@
 						"selection":
 						[
 							[
-								3661,
-								3661
+								836,
+								836
 							]
 						],
 						"settings":
@@ -1068,7 +1096,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1934.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1076,6 +1104,64 @@
 				},
 				{
 					"buffer": 2,
+					"file": "404.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2977,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2429,
+								2429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2734.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "popup.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "footer.php",
 					"semi_transient": false,
 					"settings":
@@ -1101,11 +1187,11 @@
 						"translation.y": 4915.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "front.php",
 					"semi_transient": false,
 					"settings":
@@ -1130,11 +1216,11 @@
 						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "inc/components/crumb.inc.php",
 					"semi_transient": false,
 					"settings":
@@ -1159,11 +1245,11 @@
 						"translation.y": 1624.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "sass/_front.scss",
 					"semi_transient": false,
 					"settings":
@@ -1188,11 +1274,11 @@
 						"translation.y": 1805.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "sass/_footer.scss",
 					"semi_transient": false,
 					"settings":
@@ -1218,11 +1304,11 @@
 						"translation.y": 6833.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "js/scripts.js",
 					"semi_transient": false,
 					"settings":
@@ -1247,16 +1333,16 @@
 						"translation.y": 2209.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "sass/_content.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3459,
+						"buffer_size": 3897,
 						"regions":
 						{
 						},
@@ -1269,6 +1355,7 @@
 						],
 						"settings":
 						{
+							"history_list_is_closing": true,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -1276,11 +1363,11 @@
 						"translation.y": 50.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "sass/_blog.scss",
 					"semi_transient": false,
 					"settings":
@@ -1305,11 +1392,11 @@
 						"translation.y": 4433.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "sass/_sidebar.scss",
 					"semi_transient": false,
 					"settings":
@@ -1334,11 +1421,11 @@
 						"translation.y": 91.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 13,
 					"file": "sass/_contact.scss",
 					"semi_transient": false,
 					"settings":
@@ -1356,6 +1443,7 @@
 						],
 						"settings":
 						{
+							"history_list_is_closing": true,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -1363,11 +1451,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "js/scripts.js",
 					"semi_transient": false,
 					"settings":
@@ -1390,6 +1478,41 @@
 						},
 						"translation.x": 14.0,
 						"translation.y": 790.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 14,
+					"file": "sass/helpers/_rm_contact.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3105,
+								3105
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3952.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1415,11 +1538,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1455,8 +1585,24 @@
 		"selected_items":
 		[
 			[
+				"head",
+				"header.php"
+			],
+			[
+				"conta",
+				"sass/helpers/_rm_contact.scss"
+			],
+			[
+				"content",
+				"sass/_content.scss"
+			],
+			[
 				"pop",
 				"popup.php"
+			],
+			[
+				"404",
+				"404.php"
 			],
 			[
 				"crum",
@@ -1465,10 +1611,6 @@
 			[
 				"scris",
 				"js/scripts.js"
-			],
-			[
-				"conta",
-				"sass/_contact.scss"
 			],
 			[
 				"fr",
@@ -1495,10 +1637,6 @@
 				"sass/_footer.scss"
 			],
 			[
-				"head",
-				"header.php"
-			],
-			[
 				"fron",
 				"sass/_front.scss"
 			],
@@ -1509,10 +1647,6 @@
 			[
 				"varias",
 				"assets/sass/_variables.scss"
-			],
-			[
-				"content",
-				"assets/sass/_content.scss"
 			],
 			[
 				"heads",
@@ -1681,10 +1815,6 @@
 			[
 				"var",
 				"sass/_variables.scss"
-			],
-			[
-				"404",
-				"404.php"
 			],
 			[
 				"header",
